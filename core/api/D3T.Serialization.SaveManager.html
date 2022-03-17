@@ -1,0 +1,889 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);  })(window,document,'script','dataLayer','GTM-5V25JL6');</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+  
+    <title>Class SaveManager
+   | D3T - Core | 0.9.34 </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class SaveManager
+   | D3T - Core | 0.9.34 ">
+    <meta name="generator" content="docfx 2.40.12.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="unity:packageTitle" content="D3T - Core | 0.9.34">
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" class="">
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5V25JL6" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+        
+        		<div class="back-to-unity-group">
+        			<a class="back-to-unity" href="http://docs.unity3d.com/">docs.unity3d.com</a>
+        		</div>
+        
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items"></div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="D3T.Serialization.SaveManager">
+  
+  
+  <h1 id="D3T_Serialization_SaveManager" data-uid="D3T.Serialization.SaveManager">Class SaveManager
+  </h1>
+  <div class="markdown level0 summary"><p>Manager class for saving and loading saved games.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">SaveManager</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="D3T.Serialization.html">D3T.Serialization</a></h6>
+  <!--h6><strong>Assembly</strong>: solution.dll</h6-->
+  <h5 id="D3T_Serialization_SaveManager_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class SaveManager</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="D3T_Serialization_SaveManager_currentSavingSession" data-uid="D3T.Serialization.SaveManager.currentSavingSession">currentSavingSession</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SaveSession currentSavingSession</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="D3T.Serialization.SaveSession.html">SaveSession</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="D3T_Serialization_SaveManager_isLoadingLevel" data-uid="D3T.Serialization.SaveManager.isLoadingLevel">isLoadingLevel</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool isLoadingLevel</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="D3T_Serialization_SaveManager_AutoSaveEnabled_" data-uid="D3T.Serialization.SaveManager.AutoSaveEnabled*"></a>
+  <h4 id="D3T_Serialization_SaveManager_AutoSaveEnabled" data-uid="D3T.Serialization.SaveManager.AutoSaveEnabled">AutoSaveEnabled</h4>
+  <div class="markdown level1 summary"><p>Disabling auto saves will only allow creation of saves with <code>manualSave</code> set to true.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool AutoSaveEnabled { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="D3T_Serialization_SaveManager_CurrentSaveSession_" data-uid="D3T.Serialization.SaveManager.CurrentSaveSession*"></a>
+  <h4 id="D3T_Serialization_SaveManager_CurrentSaveSession" data-uid="D3T.Serialization.SaveManager.CurrentSaveSession">CurrentSaveSession</h4>
+  <div class="markdown level1 summary"><p>The currently active save session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SaveSession CurrentSaveSession { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="D3T.Serialization.SaveSession.html">SaveSession</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="D3T_Serialization_SaveManager_HasSaveSession_" data-uid="D3T.Serialization.SaveManager.HasSaveSession*"></a>
+  <h4 id="D3T_Serialization_SaveManager_HasSaveSession" data-uid="D3T.Serialization.SaveManager.HasSaveSession">HasSaveSession</h4>
+  <div class="markdown level1 summary"><p>Returns whether a current save session has been set.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool HasSaveSession { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="D3T_Serialization_SaveManager_SaveFileExtension_" data-uid="D3T.Serialization.SaveManager.SaveFileExtension*"></a>
+  <h4 id="D3T_Serialization_SaveManager_SaveFileExtension" data-uid="D3T.Serialization.SaveManager.SaveFileExtension">SaveFileExtension</h4>
+  <div class="markdown level1 summary"><p>Extension for all save files.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string SaveFileExtension { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="D3T_Serialization_SaveManager_SaveFileLocation_" data-uid="D3T.Serialization.SaveManager.SaveFileLocation*"></a>
+  <h4 id="D3T_Serialization_SaveManager_SaveFileLocation" data-uid="D3T.Serialization.SaveManager.SaveFileLocation">SaveFileLocation</h4>
+  <div class="markdown level1 summary"><p>The root location where all save files should be saved in. If null, it refers to the default file location set in PersistentFileManager.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static PersistentFileManager.FileLocation? SaveFileLocation { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="D3T.Utility.PersistentFileManager.FileLocation.html">PersistentFileManager.FileLocation</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="D3T_Serialization_SaveManager_SaveFileRootPath_" data-uid="D3T.Serialization.SaveManager.SaveFileRootPath*"></a>
+  <h4 id="D3T_Serialization_SaveManager_SaveFileRootPath" data-uid="D3T.Serialization.SaveManager.SaveFileRootPath">SaveFileRootPath</h4>
+  <div class="markdown level1 summary"><p>The root path to the save file system.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string SaveFileRootPath { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="D3T_Serialization_SaveManager_TemplateSession_" data-uid="D3T.Serialization.SaveManager.TemplateSession*"></a>
+  <h4 id="D3T_Serialization_SaveManager_TemplateSession" data-uid="D3T.Serialization.SaveManager.TemplateSession">TemplateSession</h4>
+  <div class="markdown level1 summary"><p>The template session object used to determine the type of file system being used and the number of backup files that should be created.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SaveSession TemplateSession { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="D3T.Serialization.SaveSession.html">SaveSession</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="D3T_Serialization_SaveManager_GetKey_" data-uid="D3T.Serialization.SaveManager.GetKey*"></a>
+  <h4 id="D3T_Serialization_SaveManager_GetKey_MonoBehaviour_System_Boolean_System_Boolean_" data-uid="D3T.Serialization.SaveManager.GetKey(MonoBehaviour,System.Boolean,System.Boolean)">GetKey(MonoBehaviour, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetKey(MonoBehaviour comp, bool encrypt, bool compatible = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">MonoBehaviour</span></td>
+        <td><span class="parametername">comp</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">encrypt</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">compatible</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="D3T_Serialization_SaveManager_GetSaveNames_" data-uid="D3T.Serialization.SaveManager.GetSaveNames*"></a>
+  <h4 id="D3T_Serialization_SaveManager_GetSaveNames" data-uid="D3T.Serialization.SaveManager.GetSaveNames">GetSaveNames()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string[] GetSaveNames()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="D3T_Serialization_SaveManager_GetSession_" data-uid="D3T.Serialization.SaveManager.GetSession*"></a>
+  <h4 id="D3T_Serialization_SaveManager_GetSession_System_String_" data-uid="D3T.Serialization.SaveManager.GetSession(System.String)">GetSession(String)</h4>
+  <div class="markdown level1 summary"><p>Gets the save session named <code>name</code> from the saves directory.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SaveSession GetSession(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="D3T.Serialization.SaveSession.html">SaveSession</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="D3T_Serialization_SaveManager_Hash_" data-uid="D3T.Serialization.SaveManager.Hash*"></a>
+  <h4 id="D3T_Serialization_SaveManager_Hash_System_Object_" data-uid="D3T.Serialization.SaveManager.Hash(System.Object)">Hash(Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static uint Hash(object obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
+        <td><span class="parametername">obj</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="D3T_Serialization_SaveManager_Init_" data-uid="D3T.Serialization.SaveManager.Init*"></a>
+  <h4 id="D3T_Serialization_SaveManager_Init" data-uid="D3T.Serialization.SaveManager.Init">Init()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Init()</code></pre>
+  </div>
+  
+  
+  <a id="D3T_Serialization_SaveManager_ListAvailableSaveSessions_" data-uid="D3T.Serialization.SaveManager.ListAvailableSaveSessions*"></a>
+  <h4 id="D3T_Serialization_SaveManager_ListAvailableSaveSessions" data-uid="D3T.Serialization.SaveManager.ListAvailableSaveSessions">ListAvailableSaveSessions()</h4>
+  <div class="markdown level1 summary"><p>Returns a list of all available save sessions, sorted by their last save timestamp.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static List&lt;SaveSession&gt; ListAvailableSaveSessions()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="D3T.Serialization.SaveSession.html">SaveSession</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="D3T_Serialization_SaveManager_Load_" data-uid="D3T.Serialization.SaveManager.Load*"></a>
+  <h4 id="D3T_Serialization_SaveManager_Load_System_String_" data-uid="D3T.Serialization.SaveManager.Load(System.String)">Load(String)</h4>
+  <div class="markdown level1 summary"><p>Loads the session with the given name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Load(string saveSessionName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">saveSessionName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="D3T_Serialization_SaveManager_LoadComponent_" data-uid="D3T.Serialization.SaveManager.LoadComponent*"></a>
+  <h4 id="D3T_Serialization_SaveManager_LoadComponent_MonoBehaviour_D3T_Serialization_DataContainer_" data-uid="D3T.Serialization.SaveManager.LoadComponent(MonoBehaviour,D3T.Serialization.DataContainer)">LoadComponent(MonoBehaviour, DataContainer)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void LoadComponent(MonoBehaviour component, DataContainer container)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">MonoBehaviour</span></td>
+        <td><span class="parametername">component</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="D3T.Serialization.DataContainer.html">DataContainer</a></td>
+        <td><span class="parametername">container</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="D3T_Serialization_SaveManager_LoadFromSession_" data-uid="D3T.Serialization.SaveManager.LoadFromSession*"></a>
+  <h4 id="D3T_Serialization_SaveManager_LoadFromSession_D3T_Serialization_SaveSession_" data-uid="D3T.Serialization.SaveManager.LoadFromSession(D3T.Serialization.SaveSession)">LoadFromSession(SaveSession)</h4>
+  <div class="markdown level1 summary"><p>Loads the save file contained in the given session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void LoadFromSession(SaveSession session)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="D3T.Serialization.SaveSession.html">SaveSession</a></td>
+        <td><span class="parametername">session</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="D3T_Serialization_SaveManager_LoadLastSavedSession_" data-uid="D3T.Serialization.SaveManager.LoadLastSavedSession*"></a>
+  <h4 id="D3T_Serialization_SaveManager_LoadLastSavedSession" data-uid="D3T.Serialization.SaveManager.LoadLastSavedSession">LoadLastSavedSession()</h4>
+  <div class="markdown level1 summary"><p>Loads the last saved session (the last save).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void LoadLastSavedSession()</code></pre>
+  </div>
+  
+  
+  <a id="D3T_Serialization_SaveManager_ReloadCurrentSession_" data-uid="D3T.Serialization.SaveManager.ReloadCurrentSession*"></a>
+  <h4 id="D3T_Serialization_SaveManager_ReloadCurrentSession" data-uid="D3T.Serialization.SaveManager.ReloadCurrentSession">ReloadCurrentSession()</h4>
+  <div class="markdown level1 summary"><p>Reverts to the last save state in the current session (useful for checkpoints).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ReloadCurrentSession()</code></pre>
+  </div>
+  
+  
+  <a id="D3T_Serialization_SaveManager_Save_" data-uid="D3T.Serialization.SaveManager.Save*"></a>
+  <h4 id="D3T_Serialization_SaveManager_Save_D3T_Serialization_SaveSession_System_Boolean_System_String_D3T_Serialization_SaveMode_" data-uid="D3T.Serialization.SaveManager.Save(D3T.Serialization.SaveSession,System.Boolean,System.String,D3T.Serialization.SaveMode)">Save(SaveSession, Boolean, String, SaveMode)</h4>
+  <div class="markdown level1 summary"><p>Creates a save state for the given session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Save(SaveSession session, bool manualSave, string saveStateName, SaveMode mode = SaveMode.FullSceneContent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="D3T.Serialization.SaveSession.html">SaveSession</a></td>
+        <td><span class="parametername">session</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">manualSave</span></td>
+        <td><p>Whether or not this save is invoked by the user or by the game&apos;s mechanics.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">saveStateName</span></td>
+        <td><p>The descriptive display name of the save state.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="D3T.Serialization.SaveMode.html">SaveMode</a></td>
+        <td><span class="parametername">mode</span></td>
+        <td><p>The type of content that should be saved.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="D3T_Serialization_SaveManager_SaveComponent_" data-uid="D3T.Serialization.SaveManager.SaveComponent*"></a>
+  <h4 id="D3T_Serialization_SaveManager_SaveComponent_MonoBehaviour_D3T_Serialization_DataContainer_" data-uid="D3T.Serialization.SaveManager.SaveComponent(MonoBehaviour,D3T.Serialization.DataContainer)">SaveComponent(MonoBehaviour, DataContainer)</h4>
+  <div class="markdown level1 summary"><p>Saves all serializable data from the given component into the container.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SaveComponent(MonoBehaviour component, DataContainer container)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">MonoBehaviour</span></td>
+        <td><span class="parametername">component</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="D3T.Serialization.DataContainer.html">DataContainer</a></td>
+        <td><span class="parametername">container</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="D3T_Serialization_SaveManager_SaveCurrentSession_" data-uid="D3T.Serialization.SaveManager.SaveCurrentSession*"></a>
+  <h4 id="D3T_Serialization_SaveManager_SaveCurrentSession_System_String_System_Boolean_D3T_Serialization_SaveMode_System_Boolean_" data-uid="D3T.Serialization.SaveManager.SaveCurrentSession(System.String,System.Boolean,D3T.Serialization.SaveMode,System.Boolean)">SaveCurrentSession(String, Boolean, SaveMode, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Creates a save state for the current session, or creates a new session if there is none.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SaveCurrentSession(string saveStateName, bool manualSave, SaveMode mode = SaveMode.FullSceneContent, bool allowNewSessionCreation = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">saveStateName</span></td>
+        <td><p>The descriptive display name of the save state.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">manualSave</span></td>
+        <td><p>Whether or not this save is invoked by the user or by the game&apos;s mechanics.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="D3T.Serialization.SaveMode.html">SaveMode</a></td>
+        <td><span class="parametername">mode</span></td>
+        <td><p>The type of content that should be saved.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">allowNewSessionCreation</span></td>
+        <td><p>Allow creation of a new session if no session is set. Throws an exception otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="D3T_Serialization_SaveManager_CurrentLoadingDone" data-uid="D3T.Serialization.SaveManager.CurrentLoadingDone">CurrentLoadingDone</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Action CurrentLoadingDone</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action">Action</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="D3T_Serialization_SaveManager_Saved" data-uid="D3T.Serialization.SaveManager.Saved">Saved</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Action&lt;SaveSession, string&gt; Saved</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-2">Action</a>&lt;<a class="xref" href="D3T.Serialization.SaveSession.html">SaveSession</a>, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="D3T_Serialization_SaveManager_SaveFailed" data-uid="D3T.Serialization.SaveManager.SaveFailed">SaveFailed</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Action&lt;SaveSession, string, Exception&gt; SaveFailed</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-3">Action</a>&lt;<a class="xref" href="D3T.Serialization.SaveSession.html">SaveSession</a>, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.exception">Exception</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © 2019 Unity Technologies<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
