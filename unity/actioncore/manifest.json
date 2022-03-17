@@ -1,0 +1,1342 @@
+{
+  "homepages": [],
+  "source_base_path": "c:/temp/com.github.d3tonat0r.actioncore@1.0",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Animation.Characters.BodyPartIK.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Animation.Characters.BodyPartIK.html",
+          "hash": "D7XwmKgaRHUTSB1I0/w6HQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Animation.Characters.CharacterIKController.FootIK.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Animation.Characters.CharacterIKController.FootIK.html",
+          "hash": "TahU7vOpIf531Gszwq/PtA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Animation.Characters.CharacterIKController.FootIKPass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Animation.Characters.CharacterIKController.FootIKPass.html",
+          "hash": "YKX+qLHzm+KG8Delk8GBag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Animation.Characters.CharacterIKController.HandIKPass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Animation.Characters.CharacterIKController.HandIKPass.html",
+          "hash": "UxcbWvnRp6uteNFFPI9doQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Animation.Characters.CharacterIKController.HeadLookIKPass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Animation.Characters.CharacterIKController.HeadLookIKPass.html",
+          "hash": "7p8GrFaAJ8gahbACvMvWsQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Animation.Characters.CharacterIKController.IKPass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Animation.Characters.CharacterIKController.IKPass.html",
+          "hash": "faE9eyzwuCx0AjzOvW3Z3Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Animation.Characters.CharacterIKController.LookAtWeights.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Animation.Characters.CharacterIKController.LookAtWeights.html",
+          "hash": "ItBsizEQgw+gNlhb+5MrqA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Animation.Characters.CharacterIKController.SyncCameraIKPass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Animation.Characters.CharacterIKController.SyncCameraIKPass.html",
+          "hash": "TBvBgsXgEqBZPZjT3qc2Vw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Animation.Characters.CharacterIKController.TorsoTwistIKPass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Animation.Characters.CharacterIKController.TorsoTwistIKPass.html",
+          "hash": "zKSx2i8L6DZ5ol7i80ng0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Animation.Characters.CharacterIKController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Animation.Characters.CharacterIKController.html",
+          "hash": "oPX9eirwCXsscX90whQhyg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Animation.Characters.HandPoseSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Animation.Characters.HandPoseSettings.html",
+          "hash": "OqwaBYDNiP4w7Gs0tjxg6g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Animation.Characters.IIKSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Animation.Characters.IIKSource.html",
+          "hash": "wDWqItQs3/y5SmE1zM7Qeg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Animation.Characters.IKData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Animation.Characters.IKData.html",
+          "hash": "Bi/ulSiAW2acyRG4UkyJ5w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Animation.Characters.IKTargets.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Animation.Characters.IKTargets.html",
+          "hash": "xd7pcDA1PNCHXx+vmMhtOg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Animation.Characters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Animation.Characters.html",
+          "hash": "dnqEgM7pynp0mCTckFrAFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.DevTools.ActionCoreCommands.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.DevTools.ActionCoreCommands.html",
+          "hash": "kPkHCXxOCqglUUxOVqnysw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.DevTools.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.DevTools.html",
+          "hash": "fgD2G8HARksImalNzYU4PA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.DifficultySystem.Difficulty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.DifficultySystem.Difficulty.html",
+          "hash": "2xXQXUp2Z28fC4J/LoiqmQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.DifficultySystem.DifficultyBasedAnimationCurve.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.DifficultySystem.DifficultyBasedAnimationCurve.html",
+          "hash": "JD+3Sp8rjC65Pxtp8yDvPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.DifficultySystem.DifficultyBasedColor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.DifficultySystem.DifficultyBasedColor.html",
+          "hash": "57ygWAmn09s9RXa+oSXG1g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.DifficultySystem.DifficultyBasedFloat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.DifficultySystem.DifficultyBasedFloat.html",
+          "hash": "DXoHgH7U3G0rUgHML1rEDg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.DifficultySystem.DifficultyBasedInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.DifficultySystem.DifficultyBasedInt.html",
+          "hash": "cXV6qGf9+B+9i9DZHessaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.DifficultySystem.DifficultyBasedMaterial.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.DifficultySystem.DifficultyBasedMaterial.html",
+          "hash": "ustY98NirEfg++7mNnKYRQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.DifficultySystem.DifficultyBasedObject.Condition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.DifficultySystem.DifficultyBasedObject.Condition.html",
+          "hash": "gCgw7T5R+gEk5mdOrzuP/A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.DifficultySystem.DifficultyBasedObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.DifficultySystem.DifficultyBasedObject.html",
+          "hash": "hjtBKrofBrmosCCBoyEQzQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.DifficultySystem.DifficultyBasedValue-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.DifficultySystem.DifficultyBasedValue-1.html",
+          "hash": "jsocY52bWF6VOLKcUrNQ8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.DifficultySystem.DifficultyLevel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.DifficultySystem.DifficultyLevel.html",
+          "hash": "CAQHUkboSJsLOg8jw+mzHw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.DifficultySystem.DifficultyOverride.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.DifficultySystem.DifficultyOverride.html",
+          "hash": "MM9xSBRWCrCqHnYLndopGw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.DifficultySystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.DifficultySystem.html",
+          "hash": "yZM2SwPZ8Oya5Dq+EUEBKQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Graphics.FogZone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Graphics.FogZone.html",
+          "hash": "T2tIitKL/q9MHRT/J1Vi2w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Graphics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Graphics.html",
+          "hash": "Yvfpv9+QAx/DlaSkEe8T0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Gui.InventoryGUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Gui.InventoryGUI.html",
+          "hash": "LECYgscafuqbCyVhQWqTQw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Gui.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Gui.html",
+          "hash": "W2dVDdeEx9fZZMfUkfYD6A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.HumanoidNPC.BehaviourType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.HumanoidNPC.BehaviourType.html",
+          "hash": "7+Joj5fuimpGilQcy1V6aw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.HumanoidNPC.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.HumanoidNPC.html",
+          "hash": "SDWNCAPK9WWQ1wtU4Xevdg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Interaction.AbstractCollectibleItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Interaction.AbstractCollectibleItem.html",
+          "hash": "0RqQPAVdXbJC4sFdRMHfxA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Interaction.Button.ItemRequirement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Interaction.Button.ItemRequirement.html",
+          "hash": "69Narjbzb9Ia4jhUdR0SrQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Interaction.Button.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Interaction.Button.html",
+          "hash": "0GUC34wJQiY9kjSMKIWCXg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Interaction.CollectibleInventory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Interaction.CollectibleInventory.html",
+          "hash": "ENtZjLiBJK2pp0zGD7OoMg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Interaction.CollectibleItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Interaction.CollectibleItem.html",
+          "hash": "h4lVba4SlXRh+sJGstg6JA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Interaction.Door.AnimationSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Interaction.Door.AnimationSettings.html",
+          "hash": "M8C5uPLAa4c0iT2hi+7TIQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Interaction.Door.FallbackAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Interaction.Door.FallbackAnimation.html",
+          "hash": "qw8CETnDMlxE+hg72ggzRg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Interaction.Door.InteractionSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Interaction.Door.InteractionSettings.html",
+          "hash": "XuVnlQ8ZLmYtYR2/mkW8ww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Interaction.Door.UnlockSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Interaction.Door.UnlockSettings.html",
+          "hash": "1pbWMlW8+jX9Pb8hKOhdmw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Interaction.Door.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Interaction.Door.html",
+          "hash": "fnAj11c3r/eS2QwvbudzNA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Interaction.IInteractive.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Interaction.IInteractive.html",
+          "hash": "WoIpc1UrDapKm1CoHxzw+w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Interaction.Inventory.Interaction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Interaction.Inventory.Interaction.html",
+          "hash": "OB5uVVTmCez94WytALfKEw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Interaction.Inventory.InventoryModificationCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Interaction.Inventory.InventoryModificationCallback.html",
+          "hash": "BveE1mS74+QJCXXgA0wong=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Interaction.Inventory.PersistentInventorySettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Interaction.Inventory.PersistentInventorySettings.html",
+          "hash": "X3EmsI5u1DHr9HMiIafgyQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Interaction.Inventory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Interaction.Inventory.html",
+          "hash": "XmW8XxP/DgOoRvj9u88ecg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Interaction.InventoryItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Interaction.InventoryItem.html",
+          "hash": "2cB5LbDJ789f/FpMJL/XLQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Interaction.InventoryItemDefinitionSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Interaction.InventoryItemDefinitionSet.html",
+          "hash": "UODpmWkKuABR9JrRqjw7Nw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Interaction.InventoryItemDefinitions.ItemDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Interaction.InventoryItemDefinitions.ItemDefinition.html",
+          "hash": "YZMwLHvQETjbxij/6Giwvw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Interaction.InventoryItemDefinitions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Interaction.InventoryItemDefinitions.html",
+          "hash": "pgq/wHvTStPqYSeIS61Vow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Interaction.LightSwitch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Interaction.LightSwitch.html",
+          "hash": "A/CLZFVvqgiEckRCJVnFYA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Interaction.PersistentInventoryManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Interaction.PersistentInventoryManager.html",
+          "hash": "Lm5jgj/VtT5kyPeEwsnp0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Interaction.PhysicsPressurePlate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Interaction.PhysicsPressurePlate.html",
+          "hash": "iMAJLNjK5iDWverUO2gyAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Interaction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Interaction.html",
+          "hash": "7N0CS10shGTYNs+IA+wBvw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.CheckItemInInventory.Target.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.CheckItemInInventory.Target.html",
+          "hash": "j00ElG/f/PZR4II00W8p2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.CheckItemInInventory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.CheckItemInInventory.html",
+          "hash": "U0J1kVGeK6l+Dbq9L+hwfg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.ModifyInventory.ActionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.ModifyInventory.ActionType.html",
+          "hash": "5ifyuyBss3wEtf1dSdXpug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.ModifyInventory.TargetInventory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.ModifyInventory.TargetInventory.html",
+          "hash": "KDobAdmMtS0stkpmiue/Dg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.ModifyInventory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.ModifyInventory.html",
+          "hash": "HqKB2X5m21kcXmKuya1ywQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.Zones.ActivationZone.Action.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.Zones.ActivationZone.Action.html",
+          "hash": "LWHh89bJhRvLRgp8vlXpiA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.Zones.ActivationZone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.Zones.ActivationZone.html",
+          "hash": "pgzGkgI7a9d6aygTJCML4A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.Zones.ControlDoors.DoorControlSetting.DoorAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.Zones.ControlDoors.DoorControlSetting.DoorAction.html",
+          "hash": "esR9oZgv8LRsxO7V8p4cOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.Zones.ControlDoors.DoorControlSetting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.Zones.ControlDoors.DoorControlSetting.html",
+          "hash": "re0iOJqANeFGbdXAFN7RMA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.Zones.ControlDoors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.Zones.ControlDoors.html",
+          "hash": "QH7xl/b/rIT1emFy4s84Ng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.Zones.DamageZone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.Zones.DamageZone.html",
+          "hash": "ZhmnkaHA5a6k6YGXbADofQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.Zones.DeathZone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.Zones.DeathZone.html",
+          "hash": "789jM5wnHQH9oWh7GZGNBQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.Zones.MultiSignalZone.SignalSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.Zones.MultiSignalZone.SignalSettings.html",
+          "hash": "ulxVJqPNC7eBWj6jf8PIgA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.Zones.MultiSignalZone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.Zones.MultiSignalZone.html",
+          "hash": "GLurPRSR55pJNSt4JxU2/A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.Zones.MusicZone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.Zones.MusicZone.html",
+          "hash": "UKDW6t7ihOp0BuihmK9qSg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.Zones.SaveZone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.Zones.SaveZone.html",
+          "hash": "zHN9ikwY2tsY/zzZb5z81w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.Zones.SignalZone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.Zones.SignalZone.html",
+          "hash": "y7zHHKlmf2lNipSoG+xrwQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.Zones.SoundPlayerZone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.Zones.SoundPlayerZone.html",
+          "hash": "1hONMRhMQqSxkQlIV++sBQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.Zones.TriggerControllerZone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.Zones.TriggerControllerZone.html",
+          "hash": "JP5JFAKHAboI2ORG3n3sPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.Zones.Zone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.Zones.Zone.html",
+          "hash": "veUX4n10oQejuueHP6a9bw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.Zones.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.Zones.html",
+          "hash": "u3pnfluC7rkRTk5wbUYgXw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.html",
+          "hash": "e9owXFpVE0wG0dHEsmf7ww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.html",
+          "hash": "8KvqFRZbTXeJnoM8OoFOfw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.BodyPartIKDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.BodyPartIKDrawer.html",
+          "hash": "2ofDqn6yJSVaT+gBtq0jIA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.Inspector.AbstractCollectibleItemEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.Inspector.AbstractCollectibleItemEditor.html",
+          "hash": "gmEE29aZsSP8LRC2GXT8qw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.Inspector.DifficultyBasedAnimationCurveDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.Inspector.DifficultyBasedAnimationCurveDrawer.html",
+          "hash": "zinbU164AIyQP7hb/WhZ/w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.Inspector.DifficultyBasedColorDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.Inspector.DifficultyBasedColorDrawer.html",
+          "hash": "O28qNO2XYgPDi2ZG6OIQdw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.Inspector.DifficultyBasedFloatDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.Inspector.DifficultyBasedFloatDrawer.html",
+          "hash": "r+tKxA1+QNzzDc70lhiB2A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.Inspector.DifficultyBasedIntDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.Inspector.DifficultyBasedIntDrawer.html",
+          "hash": "fdqJmmLl2d4rGsmfwrWE5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.Inspector.DifficultyBasedMaterialDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.Inspector.DifficultyBasedMaterialDrawer.html",
+          "hash": "E8WNoeQSBAyeJfQmEvbxYQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.Inspector.DifficultyBasedValueDrawer-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.Inspector.DifficultyBasedValueDrawer-1.html",
+          "hash": "gTZqgqQPvF7YPybuRe2Juw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.Inspector.ZoneEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.Inspector.ZoneEditor.html",
+          "hash": "PPbGTTPuA638ffQ+3KtDbg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.Inspector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.Inspector.html",
+          "hash": "E70NIXgIcWkUIk5I4xwDcw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.MenuExtras.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.MenuExtras.html",
+          "hash": "HvyFFr1YSkMhCYYtWSilIQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.html",
+          "hash": "fRN71nt6xDxdfphaeSckjg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "Vq371YL5mpm6F6mysiKRLA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "Bf6BPySXhzUsi/IbOsjBeA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "changelog/CHANGELOG.md",
+      "output": {
+        ".html": {
+          "relative_path": "changelog/CHANGELOG.html",
+          "hash": "Wcc5iBHMu+2DMfj5Tr3lgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "changelog/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "changelog/toc.html",
+          "hash": "SiGi60sIxv5m6Z5Grn5pMA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "favicon.png",
+      "output": {
+        "resource": {
+          "relative_path": "favicon.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "ekMrZT+1mA3lVmidLJE5rg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "license/LICENSE.md",
+      "output": {
+        ".html": {
+          "relative_path": "license/LICENSE.html",
+          "hash": "fu7lvNvTx99gxO7HmOiTQw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "license/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "license/index.html",
+          "hash": "auUw0P5egy9JgRzeHOCcrA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "license/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "license/toc.html",
+          "hash": "GsBcUjLuYG03P9N5KuOUFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "logo.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/index.html",
+          "hash": "o3hVdSSoD13iG4jvoR4Qmg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "manual/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "manual/toc.html",
+          "hash": "FzsgMexsVt7M4H8b0uWKWA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "tcBVGk7TT+g3tdL3sE+z7w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 93,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 6,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

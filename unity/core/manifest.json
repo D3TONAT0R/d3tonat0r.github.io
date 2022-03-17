@@ -1,0 +1,4021 @@
+{
+  "homepages": [],
+  "source_base_path": "c:/temp/com.github.d3tonat0r.core@0.9",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.AbstractSource.Type.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.AbstractSource.Type.html",
+          "hash": "F5DsqLKXyZA2djUjlwTU5Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.AbstractSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.AbstractSource.html",
+          "hash": "BrHO38WB3xbJltW4ElqQRQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.ActionEventSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.ActionEventSet.html",
+          "hash": "ZvK9TXihuYaHe2emD2MzKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Animation.AnimationPlayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Animation.AnimationPlayer.html",
+          "hash": "l7404pX+m6JsUI8rKcoQqg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Animation.IStateMachineEventReceiver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Animation.IStateMachineEventReceiver.html",
+          "hash": "hSBHuxjGrKwue2fgwnpM2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Animation.LinearMovementAnimation.Mode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Animation.LinearMovementAnimation.Mode.html",
+          "hash": "ehQD2EywtDPtIvIvYuQgnA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Animation.LinearMovementAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Animation.LinearMovementAnimation.html",
+          "hash": "TjHyKkw1vXRCNXhd/ihWFQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Animation.SpinAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Animation.SpinAnimation.html",
+          "hash": "Aj4l3J/fLg4DaJgJTGkQew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Animation.StateMachineCallbackSender.SearchMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Animation.StateMachineCallbackSender.SearchMode.html",
+          "hash": "7ktV5jHMDrC+S4AJ+/v9ig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Animation.StateMachineCallbackSender.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Animation.StateMachineCallbackSender.html",
+          "hash": "YzOvSZWSnQwOA3eJdobLlA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Animation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Animation.html",
+          "hash": "pMnP8adUy5mQDdB8rJIrIA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Audio.AudioClipCollection.PlayOrder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Audio.AudioClipCollection.PlayOrder.html",
+          "hash": "hqPstTbdvRPPUauJXhZrMw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Audio.AudioClipCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Audio.AudioClipCollection.html",
+          "hash": "goZP1emgKEkRQaOMJn0Uog=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Audio.AudioClipLibrary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Audio.AudioClipLibrary.html",
+          "hash": "VMuDGnfeVuIguuP+59DSYQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Audio.AudioClipSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Audio.AudioClipSettings.html",
+          "hash": "KWS+0v8ywway6buLog00CA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Audio.AudioClipSettingsOverride.OverrideMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Audio.AudioClipSettingsOverride.OverrideMode.html",
+          "hash": "g5PChwPp0TUrpn2ovZ6tLQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Audio.AudioClipSettingsOverride.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Audio.AudioClipSettingsOverride.html",
+          "hash": "E5xf3EIZyFSJcpjDyLOpVg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Audio.AudioLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Audio.AudioLine.html",
+          "hash": "RN28EtQhooTs9/riGBde4Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Audio.AudioManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Audio.AudioManager.html",
+          "hash": "BREi/UUDK0p+KED5hQXHsw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Audio.AudioRandomizer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Audio.AudioRandomizer.html",
+          "hash": "T5tS/wSEzsZqH3EgHFS1Lw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Audio.IMixerSnapshotBlendSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Audio.IMixerSnapshotBlendSource.html",
+          "hash": "ivt2yN7p6W7zdarcJFyQhg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Audio.MusicPlayer.Playlist.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Audio.MusicPlayer.Playlist.html",
+          "hash": "p6vxA9rb9q+7usztB2kOQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Audio.MusicPlayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Audio.MusicPlayer.html",
+          "hash": "COomQsSLfpotEWdfjlFlrw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Audio.No3DAudioSettingsAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Audio.No3DAudioSettingsAttribute.html",
+          "hash": "2m2LxXYXIhrYAgbZ+94epg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Audio.SnapshotBlendSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Audio.SnapshotBlendSource.html",
+          "hash": "CT4maKOzDX/84KzMdIaBhQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Audio.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Audio.html",
+          "hash": "SgJWkHLvEgLoc/Bs65mXWw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.AudioSourceIntensityController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.AudioSourceIntensityController.html",
+          "hash": "KCiqqwuDmkFopJHVWQEZCA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.BodyPart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.BodyPart.html",
+          "hash": "IOaUfqFXlv6pZa5XTorcoQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Cameras.CameraFOVController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Cameras.CameraFOVController.html",
+          "hash": "aNUMTS5DlU1z72V0n0lXkg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Cameras.CameraFollowZoom.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Cameras.CameraFollowZoom.html",
+          "hash": "gGujpRIZbguSr1iAEdrDgg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Cameras.CameraManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Cameras.CameraManager.html",
+          "hash": "9U2RRQPQkR+/lrme97+KUw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Cameras.CameraPair.ChildCamera.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Cameras.CameraPair.ChildCamera.html",
+          "hash": "ys1btVqSjJdiNsHmJSXiNg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Cameras.CameraPair.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Cameras.CameraPair.html",
+          "hash": "IeYgE+4PFRsnkaaYXyj1DQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Cameras.CameraShakeController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Cameras.CameraShakeController.html",
+          "hash": "5caiKcwcyACa3UhNlaXWaA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Cameras.CameraShakeSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Cameras.CameraShakeSource.html",
+          "hash": "mpLGaqbIiA9tWXbl4m/tSA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Cameras.EventCamera.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Cameras.EventCamera.html",
+          "hash": "plMzUD2VjY4/J517pLTH2A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Cameras.FollowCamera.CollisionAvoidance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Cameras.FollowCamera.CollisionAvoidance.html",
+          "hash": "glpl797V5sYzxure39gcLg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Cameras.FollowCamera.Target.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Cameras.FollowCamera.Target.html",
+          "hash": "zvXCY7rHbulq6BkJ4A2wSA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Cameras.FollowCamera.UpdateMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Cameras.FollowCamera.UpdateMode.html",
+          "hash": "BFHUv3ww0gxIvztKOnCf3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Cameras.FollowCamera.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Cameras.FollowCamera.html",
+          "hash": "c/rOG5rtrHLb59Fw9v9/3g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Cameras.FreeLookCamera.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Cameras.FreeLookCamera.html",
+          "hash": "8Rjo32dDpU+47SaAu4vWQg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Cameras.ICameraShakeSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Cameras.ICameraShakeSource.html",
+          "hash": "qez32OJC+/t+uj+R+Pf/kQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Cameras.IEventCamera.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Cameras.IEventCamera.html",
+          "hash": "VPqjy/Umqs1C6xq1TvXsbg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Cameras.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Cameras.html",
+          "hash": "WIAW03+M7g98xjOSXPQtTA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.CommonDamageTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.CommonDamageTypes.html",
+          "hash": "zGUt5vH77zj8N9D2xuMS5A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.CommonMaterials.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.CommonMaterials.html",
+          "hash": "McUowzm93qKPLoLhmZVDyQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.CoroutineRunner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.CoroutineRunner.html",
+          "hash": "Bd5wO06JUeN0UtFK0DcCEw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.CurveRemappedVCComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.CurveRemappedVCComponent.html",
+          "hash": "nBvyLM1EIOQiLcoAc6UX4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.DamageModificationTable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.DamageModificationTable.html",
+          "hash": "GLwlOEw1Ieoz4+YWRonApA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.DevTools.CmdArgs-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.DevTools.CmdArgs-1.html",
+          "hash": "F0ADd4v5Fg8ZGofDzEQKFQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.DevTools.CmdArgs-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.DevTools.CmdArgs-2.html",
+          "hash": "X3KuC/m5TRYwC3RP16L6XQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.DevTools.CmdArgs-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.DevTools.CmdArgs-3.html",
+          "hash": "s046dXnCgYIkQpf/cQwjSQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.DevTools.CmdArgs-4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.DevTools.CmdArgs-4.html",
+          "hash": "+EPZWEQfql4x6CAGpuHGwg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.DevTools.CmdArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.DevTools.CmdArgs.html",
+          "hash": "A7GMd++CMCEybKeBjBPChw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.DevTools.ConsoleCommandAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.DevTools.ConsoleCommandAttribute.html",
+          "hash": "6wjLK/z0KzIt65DEuUhoWw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.DevTools.CoreCommands.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.DevTools.CoreCommands.html",
+          "hash": "5WXiqeP7iM+SE6xs2j7dXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.DevTools.DevConsole.CommandDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.DevTools.DevConsole.CommandDelegate.html",
+          "hash": "qZvNbBJyzT/dUk5LgJNy7Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.DevTools.DevConsole.LogMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.DevTools.DevConsole.LogMessage.html",
+          "hash": "tTXhc5WLOyuZP1pUqtugYQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.DevTools.DevConsole.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.DevTools.DevConsole.html",
+          "hash": "ax00P8e3fZrmMBdP/aRtJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.DevTools.DevToolsExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.DevTools.DevToolsExtensions.html",
+          "hash": "W3yECAyASSIku8z+aBr/1A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.DevTools.FPSCounter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.DevTools.FPSCounter.html",
+          "hash": "y0hsHgXJjaBGvpXro89pww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.DevTools.ParsingFailedException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.DevTools.ParsingFailedException.html",
+          "hash": "HMHIPsY595cjtgLUoG838w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.DevTools.VideoSettingsCommands.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.DevTools.VideoSettingsCommands.html",
+          "hash": "DLOZvvODYoeR911/xV47TA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.DevTools.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.DevTools.html",
+          "hash": "v6gFfPWamy1ximzHIMcr6A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Extensions.html",
+          "hash": "9iQF9rR7KIiaJc6BgyFRKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.GameSettings.AudioSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.GameSettings.AudioSettings.html",
+          "hash": "/3op284mPt+s9XKRw1AYFg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.GameSettings.GUISettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.GameSettings.GUISettings.html",
+          "hash": "5nYcSFzuWwrMcGysFXSlhQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.GameSettings.NamedScriptableObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.GameSettings.NamedScriptableObject.html",
+          "hash": "J4l6uh9QqcBhKv6fKtfgEA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.GameSettings.ScreenFaderSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.GameSettings.ScreenFaderSettings.html",
+          "hash": "NEe+LdSYlCsA9UPLtFyQQg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.GameSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.GameSettings.html",
+          "hash": "/ka3v81Jr37J3o6VkGPmEQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Graphics.DistortionShaderUpdate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Graphics.DistortionShaderUpdate.html",
+          "hash": "Wutg6HgWSs8XrWR74sppWw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Graphics.FlickerLight.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Graphics.FlickerLight.html",
+          "hash": "dZ3YboZ0A92h29mDSUOmxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Graphics.LookAt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Graphics.LookAt.html",
+          "hash": "fkiIDwU6wjmG6M2P/T34gw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Graphics.MaterialPropertyBlockSetter.ColorProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Graphics.MaterialPropertyBlockSetter.ColorProperty.html",
+          "hash": "vek5IlHAHLTJMF9/WS0CRg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Graphics.MaterialPropertyBlockSetter.EmissionProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Graphics.MaterialPropertyBlockSetter.EmissionProperty.html",
+          "hash": "7VLJCQyLuQNo7qgUOK8QPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Graphics.MaterialPropertyBlockSetter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Graphics.MaterialPropertyBlockSetter.html",
+          "hash": "jEVi/840mNbJOujXqgSSLw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Graphics.PlanarReflection.ResolutionScale.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Graphics.PlanarReflection.ResolutionScale.html",
+          "hash": "Y5Loc4QwxLvH5i34Do01ZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Graphics.PlanarReflection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Graphics.PlanarReflection.html",
+          "hash": "jrznOd0AcUGyE3bil66f4w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Graphics.SystemTimeAnalogClock.Axis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Graphics.SystemTimeAnalogClock.Axis.html",
+          "hash": "8Ug41Ps2un/1gHulyEES/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Graphics.SystemTimeAnalogClock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Graphics.SystemTimeAnalogClock.html",
+          "hash": "K6TSDKE8vLMMmcA6xxd5eA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Graphics.TextMeshDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Graphics.TextMeshDrawer.html",
+          "hash": "GNpFVmcfRGJlaA8OX/DcdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Graphics.TextureFontAsset.CharacterInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Graphics.TextureFontAsset.CharacterInfo.html",
+          "hash": "XwA5RdWbP02Xj8VKiaADqA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Graphics.TextureFontAsset.CharacterSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Graphics.TextureFontAsset.CharacterSet.html",
+          "hash": "ddICOmo/UbUz9GiGX3sa2g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Graphics.TextureFontAsset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Graphics.TextureFontAsset.html",
+          "hash": "7wMU6Id2M00fwRriHG22Og=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Graphics.VisibilityPortal.ResolutionScale.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Graphics.VisibilityPortal.ResolutionScale.html",
+          "hash": "pSFlnvniLobY0W5UZXOA1g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Graphics.VisibilityPortal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Graphics.VisibilityPortal.html",
+          "hash": "FMt1/Rm9M/razIwicYyrRw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Graphics.VolumetricLightCone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Graphics.VolumetricLightCone.html",
+          "hash": "K0btHA+/it0/pMmsdmcpXw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Graphics.WaterObject.AmbientSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Graphics.WaterObject.AmbientSettings.html",
+          "hash": "7UEmvP2Zx6feuVW6nOWGUg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Graphics.WaterObject.CausticsSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Graphics.WaterObject.CausticsSettings.html",
+          "hash": "FFRB4giNuebT3XkQDZItLA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Graphics.WaterObject.LevelMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Graphics.WaterObject.LevelMode.html",
+          "hash": "5vAjrnACbyx19AVoU+4RNg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Graphics.WaterObject.SurfaceSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Graphics.WaterObject.SurfaceSettings.html",
+          "hash": "QQLTHE8kP0NjTaiHKGHRvg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Graphics.WaterObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Graphics.WaterObject.html",
+          "hash": "d7EdFEjwQew9pmxBJkhLqg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Graphics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Graphics.html",
+          "hash": "V1O2Ox5ozbDgRzTyyQzJaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Gui.Crosshair.EightPartCrosshair.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Gui.Crosshair.EightPartCrosshair.html",
+          "hash": "FJAkRq9ix/hnH3VDBo3gvA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Gui.Crosshair.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Gui.Crosshair.html",
+          "hash": "tQqtGxXuvkzsUPHK8/TzFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Gui.CustomFadeSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Gui.CustomFadeSettings.html",
+          "hash": "UUixV/Rb94O76hwbE7AzZw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Gui.GUIChangeAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Gui.GUIChangeAttribute.html",
+          "hash": "I5L56jhT6dpZcTnrfggWKA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Gui.GUIChangeCallType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Gui.GUIChangeCallType.html",
+          "hash": "0KRnHkxj3JafMZWyztyTsQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Gui.GUIElement.ElementDrawMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Gui.GUIElement.ElementDrawMode.html",
+          "hash": "LnUbXiW4JASTiVYTHgNDUg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Gui.GUIElement.ElementOrder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Gui.GUIElement.ElementOrder.html",
+          "hash": "GGf8LO8bm3xJmlKlbMNJyA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Gui.GUIElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Gui.GUIElement.html",
+          "hash": "s3ceS4SR5HxO04E6MnFPrQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Gui.GUIHandler.GuiChangeInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Gui.GUIHandler.GuiChangeInfo.html",
+          "hash": "mQ9iwYKWz5143fBxcXpIng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Gui.GUIHandler.GuiInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Gui.GUIHandler.GuiInfo.html",
+          "hash": "Fw/m9SGLKrJVvSR7a5Qyfw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Gui.GUIHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Gui.GUIHandler.html",
+          "hash": "Rdn4NAT9yzMCPf3EpU90Ig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Gui.GUIInitAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Gui.GUIInitAttribute.html",
+          "hash": "VUNxDh9wza8BkEq/+Wz6tg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Gui.GUIStyleCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Gui.GUIStyleCollection.html",
+          "hash": "UB1T85TsHFAbzbf/sYGSXA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Gui.GUIStyleCollectionAsset.GUISkinAutoGenerationData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Gui.GUIStyleCollectionAsset.GUISkinAutoGenerationData.html",
+          "hash": "N2muLoZua7YNrnoblHDx3w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Gui.GUIStyleCollectionAsset.NamedAudioClip.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Gui.GUIStyleCollectionAsset.NamedAudioClip.html",
+          "hash": "1i9W3K4IBgc1sQLVMo8kAw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Gui.GUIStyleCollectionAsset.NamedColor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Gui.GUIStyleCollectionAsset.NamedColor.html",
+          "hash": "1nStTmeNVBdlE5G4umhiZg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Gui.GUIStyleCollectionAsset.NamedFloat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Gui.GUIStyleCollectionAsset.NamedFloat.html",
+          "hash": "k4g/iAznm+XjIsidhWPJgw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Gui.GUIStyleCollectionAsset.NamedObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Gui.GUIStyleCollectionAsset.NamedObject.html",
+          "hash": "ybRewnXXV+VeyWH3mw+K3w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Gui.GUIStyleCollectionAsset.NamedRect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Gui.GUIStyleCollectionAsset.NamedRect.html",
+          "hash": "2z/T45rlZKK+4VBdLlrA7g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Gui.GUIStyleCollectionAsset.NamedTexture2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Gui.GUIStyleCollectionAsset.NamedTexture2D.html",
+          "hash": "Y2lpRQOzH4FVCj4AiU9AiA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Gui.GUIStyleCollectionAsset.NamedValue-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Gui.GUIStyleCollectionAsset.NamedValue-1.html",
+          "hash": "7OP9EP/Oyu3Qyi0sCNdZig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Gui.GUIStyleCollectionAsset.NamedVector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Gui.GUIStyleCollectionAsset.NamedVector.html",
+          "hash": "OjHMTEHQVigqX/2XH6cC+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Gui.GUIStyleCollectionAsset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Gui.GUIStyleCollectionAsset.html",
+          "hash": "tl1M986XAKxytQLgL3+pFw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Gui.MenuElement.ElementPauseOption.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Gui.MenuElement.ElementPauseOption.html",
+          "hash": "2LSfGYWPFhnXXQWoFRxr0A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Gui.MenuElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Gui.MenuElement.html",
+          "hash": "RHqr/mypMz4pXJG7YU1ZUw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Gui.MouseEventReceiver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Gui.MouseEventReceiver.html",
+          "hash": "nnIMoV1mcsGf70fyYusXLQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Gui.ScreenFader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Gui.ScreenFader.html",
+          "hash": "CzxnzmUFVw5UiIms4xyTZw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Gui.TextGuiWriterBase.TextElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Gui.TextGuiWriterBase.TextElement.html",
+          "hash": "GsNk3i46idawt2RyJgmWxw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Gui.TextGuiWriterBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Gui.TextGuiWriterBase.html",
+          "hash": "cENMnFlBn93fVRdS+3S5GA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Gui.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Gui.html",
+          "hash": "TeEaOE5UAHnVvHT07xv+KA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.IDamageable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.IDamageable.html",
+          "hash": "KipWnleaST9IiOm2BdNSng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.INullableValue-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.INullableValue-1.html",
+          "hash": "fVCBdb29RhHGA8E8y+QIVA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Initializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Initializer.html",
+          "hash": "xZtx6O/4jdJ+d/zL2lWFKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.InputInitAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.InputInitAttribute.html",
+          "hash": "4qNqYbZDCgoafnUWc0+1cA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.InputManager.Axis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.InputManager.Axis.html",
+          "hash": "X6nzNJAHtNwqjkWeNkt9ng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.InputManager.Button.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.InputManager.Button.html",
+          "hash": "ZqL1OPiMMJr+XTLSXX0pQw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.InputManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.InputManager.html",
+          "hash": "MD6nUwR/YWpG5HJX42Oa/A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.InputSystemInitAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.InputSystemInitAttribute.html",
+          "hash": "rirpB9omwchQAfvoEy131w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.InputSystemManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.InputSystemManager.html",
+          "hash": "V8BybhmjhjgeI5RTIuO7PQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.InstancePool-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.InstancePool-1.html",
+          "hash": "8pjNORqA1FcQcy19599tGQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.L10N.L10NAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.L10N.L10NAttribute.html",
+          "hash": "IfnSjdSNbgtJD5dAo+qM1A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.L10N.LanguageDictionary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.L10N.LanguageDictionary.html",
+          "hash": "MIV9Sz8iPc1TdWWOI0MD2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.L10N.LocalizationExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.L10N.LocalizationExtensions.html",
+          "hash": "ixMJ5XMnWXHTIP7+05nryg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.L10N.Localizer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.L10N.Localizer.html",
+          "hash": "lBgRBSTLSYwSCsAO8JNRQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.L10N.LocalizerCommands.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.L10N.LocalizerCommands.html",
+          "hash": "gf/BxZfjhFluuthWzz95gw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.L10N.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.L10N.html",
+          "hash": "J443u1saUMtu9g6JMC8NvA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.LevelManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.LevelManager.html",
+          "hash": "Tad6FnZOK0wmym0v7pMIzA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.MeshBuilder.Axis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.MeshBuilder.Axis.html",
+          "hash": "xaNhn++x4BBM9J7R/V12gg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.MeshBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.MeshBuilder.html",
+          "hash": "3lHHr63f8qP05HWHIR7Tcg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.NullableColor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.NullableColor.html",
+          "hash": "oc2P2GqyRK6062pb1Vnd7A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.NullableFloat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.NullableFloat.html",
+          "hash": "fAJlqNzGMKZEj0KDpTeO4A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.NullableInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.NullableInt.html",
+          "hash": "880uhjP5vDyuECxrs7iRPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.NullableValueUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.NullableValueUtility.html",
+          "hash": "D4Aiy6EKJn40TLt7ZQ0qQQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.RandomUtilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.RandomUtilities.html",
+          "hash": "3xKCcL3xGbhGSJF65/fWAw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Serialization.BinaryDeserializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Serialization.BinaryDeserializer.html",
+          "hash": "M4x31+YSLPXEEZJb6MSN1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Serialization.BinarySerializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Serialization.BinarySerializer.html",
+          "hash": "NkYEi59iid8y4GPza8i1ig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Serialization.DataContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Serialization.DataContainer.html",
+          "hash": "T7Y8Fwvya6Lh57izPrmieg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Serialization.DataDeserializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Serialization.DataDeserializer.html",
+          "hash": "04hp9Jsalg7h9i4PAhHLvw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Serialization.DataSerializer.DataMarker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Serialization.DataSerializer.DataMarker.html",
+          "hash": "vkrKwWtqHs7Lf+7kjZyH9w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Serialization.DataSerializer.DataSerializationMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Serialization.DataSerializer.DataSerializationMode.html",
+          "hash": "5rCLTqnm2yNh1LZMbjywiA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Serialization.DataSerializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Serialization.DataSerializer.html",
+          "hash": "N49NJaqLdQXCYNOcatZ6FA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Serialization.ISerializable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Serialization.ISerializable.html",
+          "hash": "gJEW1MQJHMpwr+vJm9tXUw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Serialization.ISerializablePrefabInstantiator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Serialization.ISerializablePrefabInstantiator.html",
+          "hash": "98WXy4VYkK26nHWswwKUmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Serialization.PersistentBetweenScenesObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Serialization.PersistentBetweenScenesObject.html",
+          "hash": "JNgDvb67OaCubfFimFefng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Serialization.SaveManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Serialization.SaveManager.html",
+          "hash": "EOmr6fH4LZn//iWJaL7JWw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Serialization.SaveMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Serialization.SaveMode.html",
+          "hash": "DrwS4dXYmkzfvv+WSuqT9g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Serialization.SaveSession.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Serialization.SaveSession.html",
+          "hash": "JOSA256geLoBaFgPV34I/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Serialization.SerializableExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Serialization.SerializableExtensions.html",
+          "hash": "dLXpy1OdJvjAj5bawUj/OQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Serialization.SerializablePrefabInstance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Serialization.SerializablePrefabInstance.html",
+          "hash": "kLE68ogy1u+Dwwh5TDp4iA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Serialization.SerializationDebugger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Serialization.SerializationDebugger.html",
+          "hash": "6sXpbMG6KCV3Mj3oZn+WiA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Serialization.SerializationUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Serialization.SerializationUtility.html",
+          "hash": "48fszz8tVcOlPN9rcWZsXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Serialization.SerializeAllFieldsAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Serialization.SerializeAllFieldsAttribute.html",
+          "hash": "px5uCc4HrCiF2yQTxspFMw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Serialization.SerializeAnimator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Serialization.SerializeAnimator.html",
+          "hash": "Nv2S7I+oOwJKT92bLBm2tQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Serialization.SerializeGameObjectActiveState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Serialization.SerializeGameObjectActiveState.html",
+          "hash": "cBn/tvopUHAhsNaoIjgqSQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Serialization.SerializeRigidbody.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Serialization.SerializeRigidbody.html",
+          "hash": "qkykAc9F7I90W75HKVDukA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Serialization.SerializeTransform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Serialization.SerializeTransform.html",
+          "hash": "5do0DJK54gXgBjnJmugaXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Serialization.SerializeVarAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Serialization.SerializeVarAttribute.html",
+          "hash": "fWP3Si3US5x5Fcve/8V5aQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Serialization.StaticLoadAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Serialization.StaticLoadAttribute.html",
+          "hash": "8zIIklUOaeuo91Rs+JAc2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Serialization.StaticSaveAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Serialization.StaticSaveAttribute.html",
+          "hash": "r/Zj3gJwptzEXo+zH8LERA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Serialization.XMLDeserializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Serialization.XMLDeserializer.html",
+          "hash": "8pmBFPg+O0GF1yazNpKfXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Serialization.XMLSerializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Serialization.XMLSerializer.html",
+          "hash": "9exRlMwnbZC9YB0Kic1amg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Serialization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Serialization.html",
+          "hash": "pmmJ90uNXl7zN4NXgFyzEQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.SingletonIDAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.SingletonIDAttribute.html",
+          "hash": "WcFKaB+yWvbjRu/4pKdAaA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.SingletonPointer.Action.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.SingletonPointer.Action.html",
+          "hash": "QVsGafcj/Px6Yiynm3IW+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.SingletonPointer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.SingletonPointer.html",
+          "hash": "HrpHQ6WsxKZzrYcZ6KYLsw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.StaticClassController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.StaticClassController.html",
+          "hash": "pXRI1Sujog0ADu0UkZTIOg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.StaticInitAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.StaticInitAttribute.html",
+          "hash": "Z0KO0Hk0LtMW0F3PDVTSww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.StaticPostInitAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.StaticPostInitAttribute.html",
+          "hash": "Xjqo5ewARaLQWMhCQDTHlA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.StaticPreInitAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.StaticPreInitAttribute.html",
+          "hash": "NgfSHaL9x/EpU7XmCNsPyQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Statistics.StatCollector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Statistics.StatCollector.html",
+          "hash": "ulgf0Kf9NTAd18l5gY148Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Statistics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Statistics.html",
+          "hash": "M0oA0mHWFWwaXXGGovA8Rw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Sun.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Sun.html",
+          "hash": "b556/wZv1L7ISUXIss4LPg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.SunPosition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.SunPosition.html",
+          "hash": "URMTeUo/ivpyeASAmgJC+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.SupportsSingletonIDAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.SupportsSingletonIDAttribute.html",
+          "hash": "QO8mZOPPl5HLkyl9urn4wQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.ToggleableFeature.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.ToggleableFeature.html",
+          "hash": "8a4lRy0ONebVnnCL4lf/Jg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.Actions.AddStat.StatType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.Actions.AddStat.StatType.html",
+          "hash": "gT33ur97y7lGDppLIiyqpg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.Actions.AddStat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.Actions.AddStat.html",
+          "hash": "M46fWOIfjvq2Antfbvj5WA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.Actions.ChangeMaterial.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.Actions.ChangeMaterial.html",
+          "hash": "DONa3QGJngSVLU8xK5en/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.Actions.IdleAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.Actions.IdleAction.html",
+          "hash": "fSLnnwNbMEsCnvmt2Zh1Gg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.Actions.InvokeUnityEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.Actions.InvokeUnityEvent.html",
+          "hash": "5v3LwhQ3Go4XrrNjIG+FqQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.Actions.LevelLoader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.Actions.LevelLoader.html",
+          "hash": "baGYi+1ac582KmeiAAbKrQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.Actions.SetComponentEnabled.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.Actions.SetComponentEnabled.html",
+          "hash": "H2cbXe2VrJqZC/lIRFF08w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.Actions.SetObjectsActive.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.Actions.SetObjectsActive.html",
+          "hash": "IvGYKqd5fCl1bxbZDxHhHQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.Actions.SetRigidbodyKinematicState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.Actions.SetRigidbodyKinematicState.html",
+          "hash": "/bOPZ2ePz7tjKSlDjhYUaA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.Actions.StartSender.SignalSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.Actions.StartSender.SignalSettings.html",
+          "hash": "xTbIU7GqKAUvVzMoo1HQzA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.Actions.StartSender.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.Actions.StartSender.html",
+          "hash": "/keWswbU+vyYcIdpoj68LA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.Actions.ToggleShaderKeyword.Mode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.Actions.ToggleShaderKeyword.Mode.html",
+          "hash": "ebJ+aqoouOcpqs8Kzj2GdQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.Actions.ToggleShaderKeyword.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.Actions.ToggleShaderKeyword.html",
+          "hash": "6muQeD8+njiH+3vh9nMPng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.Actions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.Actions.html",
+          "hash": "5HYTS+XfSmnuh/atkYxwgg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.ApplyDamage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.ApplyDamage.html",
+          "hash": "wcXj0l6vI6Lu6vk+ALCtKQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.AreaCheckCondition.ConditionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.AreaCheckCondition.ConditionType.html",
+          "hash": "aULCYkhWdobw17fpavvung=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.AreaCheckCondition.Shape.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.AreaCheckCondition.Shape.html",
+          "hash": "SA2c58VLDTn4p5E/MXbj6w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.AreaCheckCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.AreaCheckCondition.html",
+          "hash": "7+ghMScoS79bgiV88iT6Ug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.Effects.SignalSequencer.SignalSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.Effects.SignalSequencer.SignalSettings.html",
+          "hash": "kUL/P4lQzlSRaEbE8KyYog=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.Effects.SignalSequencer.SignalState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.Effects.SignalSequencer.SignalState.html",
+          "hash": "iWUuXM/miMAp9Y23d7FJ9g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.Effects.SignalSequencer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.Effects.SignalSequencer.html",
+          "hash": "fGiL7bJ9bpad4EsDgciqFg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.Effects.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.Effects.html",
+          "hash": "mFiq3HLMuiQhE5Lb0KlmZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.ISignalLink.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.ISignalLink.html",
+          "hash": "l4J7y2Uczy3rxeT7DdYyLw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.MoveTransform.Mode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.MoveTransform.Mode.html",
+          "hash": "rK6NBIFB5r04WCiDak1pjA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.MoveTransform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.MoveTransform.html",
+          "hash": "wMuPd4v4ZGYsEBxQ7we5SQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.ObjectsInArea.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.ObjectsInArea.html",
+          "hash": "/raz/K5qgmP8x/CXjfpu+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.PlayAnimatorState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.PlayAnimatorState.html",
+          "hash": "G2KeBZnYIbOIbf4boznfRw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.PlayMusic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.PlayMusic.html",
+          "hash": "E0qPlaGQ5SYMnAd3CdH6rQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.PlaySound.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.PlaySound.html",
+          "hash": "gIZE+hmYUMeRZ1rJZ9OFNw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.PrintMessage.LogType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.PrintMessage.LogType.html",
+          "hash": "h18+LzBPx7e21qSEXoSVTA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.PrintMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.PrintMessage.html",
+          "hash": "kOuRlqjNex12XM5rR2f6IQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.ReferenceRequiresComponentAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.ReferenceRequiresComponentAttribute.html",
+          "hash": "qKG2lKk4hSLmFRG2jSEFtw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.SceneObjectReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.SceneObjectReference.html",
+          "hash": "C1sVDxbFa7FIHclqx2pG2g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.SendSignal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.SendSignal.html",
+          "hash": "b/Szrfb8p2cDDDHgONhaCg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.SignalSender.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.SignalSender.html",
+          "hash": "ke4rFSR73O8uLdJ5XRX09A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.SignalTargetAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.SignalTargetAttribute.html",
+          "hash": "dkysOJ62Q0kA+vLw0HstfQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.StaticCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.StaticCondition.html",
+          "hash": "C5wsLuRSiHA8sEwJtcqNqw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.StopMusic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.StopMusic.html",
+          "hash": "MTbMK2gYrGHeEobpKA9nGQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.TimedDestroy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.TimedDestroy.html",
+          "hash": "cGYI/naKseSyt/A3VrFyqQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.TriggerAction.ExecutionSettings.SignalCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.TriggerAction.ExecutionSettings.SignalCondition.html",
+          "hash": "lfNO8z7LrcyQLFpRmhim7Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.TriggerAction.ExecutionSettings.SignalModification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.TriggerAction.ExecutionSettings.SignalModification.html",
+          "hash": "MoWHR7jmt/O5O95sq8vppw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.TriggerAction.ExecutionSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.TriggerAction.ExecutionSettings.html",
+          "hash": "nsD4b2wxKOrBDjBo3JTGCQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.TriggerAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.TriggerAction.html",
+          "hash": "4hm508uI1BgRVOKAKuxYzA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.TriggerComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.TriggerComponent.html",
+          "hash": "E+2solS9zpPgq7d42IQHEA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.TriggerCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.TriggerCondition.html",
+          "hash": "lsssZ+6ZMzGyPQNnW5blMg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.TriggerController.ActionExecutionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.TriggerController.ActionExecutionType.html",
+          "hash": "fampEZoQKb8fygob5xAdow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.TriggerController.UpdateRate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.TriggerController.UpdateRate.html",
+          "hash": "ufIxC59TpXF3G0oEr91v/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.TriggerController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.TriggerController.html",
+          "hash": "ofqeGBs9+hQ+bhXT0zyq2w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.html",
+          "hash": "Z+g0pjhWEl3olZGkhH1CYA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.UserPrefLoadAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.UserPrefLoadAttribute.html",
+          "hash": "ee0zXWrIGq90bC6ElNfO/w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.UserPrefSaveAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.UserPrefSaveAttribute.html",
+          "hash": "nlHbjbTGA9OWTSeADmNg3g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.UserPreferences.AudioVolumeLevels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.UserPreferences.AudioVolumeLevels.html",
+          "hash": "+B+XAvLXMik9BO1XvswFqg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.UserPreferences.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.UserPreferences.html",
+          "hash": "6nPsuuaZehI835UuwrMGYA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Utility.CreateAnimationClipButtonAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Utility.CreateAnimationClipButtonAttribute.html",
+          "hash": "XYJKA76SxVqhoVbdGnUSJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Utility.DownloadUtility.DownloadState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Utility.DownloadUtility.DownloadState.html",
+          "hash": "jFfbg92MHZyqFkDYybRKkg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Utility.DownloadUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Utility.DownloadUtility.html",
+          "hash": "alBk+59dfrRWUF56zPx5RA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Utility.FileUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Utility.FileUtility.html",
+          "hash": "F180Dg6b3l2jEm9FJ7l/aA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Utility.GIFixer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Utility.GIFixer.html",
+          "hash": "Wntplo8xtotPLa6fILUWKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Utility.HelpBoxAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Utility.HelpBoxAttribute.html",
+          "hash": "vrfzUjzH1pw/pXkO/MODXA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Utility.HelpBoxType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Utility.HelpBoxType.html",
+          "hash": "4IpblN91GdElcxszcrsbww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Utility.MonoInstance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Utility.MonoInstance.html",
+          "hash": "YgflvI1OQVLx2y6geO+6Jg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Utility.PersistentFileManager.FileLocation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Utility.PersistentFileManager.FileLocation.html",
+          "hash": "3Fj5trkNeZtD8W13jhc6Dg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Utility.PersistentFileManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Utility.PersistentFileManager.html",
+          "hash": "mhRh25GOZA6axi+7rYWdQw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Utility.ReflectionUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Utility.ReflectionUtility.html",
+          "hash": "vMHEhLxVN5VJwy+kvdFc/w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Utility.Screenshots.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Utility.Screenshots.html",
+          "hash": "uqvIS1txlqtD7nJtXbCSRA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Utility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Utility.html",
+          "hash": "/p2q0wtDc1RFQ/eNKDzVVA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.VCComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.VCComponent.html",
+          "hash": "Sbxn55jImEeIoU55U218Pw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.html",
+          "hash": "INTHIbq5RQJlTMRhNN71Eg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.AssetUserDataEditor.Asset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.AssetUserDataEditor.Asset.html",
+          "hash": "9zhq+hD+XSAD6s7WphxFfQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.AssetUserDataEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.AssetUserDataEditor.html",
+          "hash": "cHYCdB0kozXUXi377GgwEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.AudioClipSettingsDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.AudioClipSettingsDrawer.html",
+          "hash": "EI3bLAXlCMe8owKDlHHfuQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.CreateAnimationClipButtonAttributeDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.CreateAnimationClipButtonAttributeDrawer.html",
+          "hash": "TdrqQxKZnavryG42PMPeyg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.DuplicateCustom.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.DuplicateCustom.html",
+          "hash": "qisMCKvjOSQd2BTpbEx+vw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.DuplicateScriptRemover.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.DuplicateScriptRemover.html",
+          "hash": "qq/fypNkAHPe1g6hmtb5gQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.EnhancedHierarchy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.EnhancedHierarchy.html",
+          "hash": "i6CH0Lupo4VO5ff7n6JtrQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.GUIDConflictResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.GUIDConflictResolver.html",
+          "hash": "KgYElTgW4A/RsCvO0AyLnw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.GameObjectEditorUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.GameObjectEditorUtility.html",
+          "hash": "zvQahomQG3Yg/+WJZkGqiA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.GameObjectMenuExtras.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.GameObjectMenuExtras.html",
+          "hash": "O7MiU55SpVNyaXMZ32g0MA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.ImportAssetFromPackage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.ImportAssetFromPackage.html",
+          "hash": "33lpBn1LArM4286ePKDaNw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.Inspector.AbstractSourceEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.Inspector.AbstractSourceEditor.html",
+          "hash": "ozLNhOQz5429eilljFRrVg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.Inspector.DrawBaseClassLastEditor-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.Inspector.DrawBaseClassLastEditor-1.html",
+          "hash": "NLt7z7S8mE8DHGjNT4SI5w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.Inspector.HelpBoxDecoratorDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.Inspector.HelpBoxDecoratorDrawer.html",
+          "hash": "RMys7vOtgMJAUdnTglU9cA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.Inspector.LightEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.Inspector.LightEditor.html",
+          "hash": "hojI6qQq4C+t/xNIrsutsw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.Inspector.LightTempWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.Inspector.LightTempWindow.html",
+          "hash": "jECid+RtXe6uVfC7YstvAw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.Inspector.NullableColorDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.Inspector.NullableColorDrawer.html",
+          "hash": "Hg+UHF8Ids/Xi4b+wwiRuA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.Inspector.NullableFloatDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.Inspector.NullableFloatDrawer.html",
+          "hash": "gPNRvcdkIQ4mXHAa3YOduQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.Inspector.NullableIntDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.Inspector.NullableIntDrawer.html",
+          "hash": "Q0URI47/tADEmlVVnMbG1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.Inspector.NullableValueDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.Inspector.NullableValueDrawer.html",
+          "hash": "EV9TU172h9XRRczWFIPt+w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.Inspector.SeparateBaseFromChildFieldEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.Inspector.SeparateBaseFromChildFieldEditor.html",
+          "hash": "0cP5yleIP0aBTYdyYzc0qQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.Inspector.SignalTargetAttributeDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.Inspector.SignalTargetAttributeDrawer.html",
+          "hash": "10eAKz9GWW7JHUKdGib/Sw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.Inspector.SingletonIDDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.Inspector.SingletonIDDrawer.html",
+          "hash": "rS2qWPOBgtqpp7eVNYSEeQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.Inspector.ToggleableFeatureDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.Inspector.ToggleableFeatureDrawer.html",
+          "hash": "wlH9IDcE8SNMMDVqvlIPVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.Inspector.TriggerActionEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.Inspector.TriggerActionEditor.html",
+          "hash": "/3MVpA1lxJdLsPyD21VQWw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.Inspector.TriggerConditionEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.Inspector.TriggerConditionEditor.html",
+          "hash": "bCj1r1MXejc2s3xdjzHt/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.Inspector.VolumetricLightConeEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.Inspector.VolumetricLightConeEditor.html",
+          "hash": "IgXpEBiWLyOUrsUrfvkg1A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.Inspector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.Inspector.html",
+          "hash": "IBC1I80HgYKEiWn5n6jgoQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.L10N.CheckForComponentsAttributeDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.L10N.CheckForComponentsAttributeDrawer.html",
+          "hash": "tGcTMeIyrm0/j9hhDONolg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.L10N.L10NAttributeDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.L10N.L10NAttributeDrawer.html",
+          "hash": "EZD2CrEwN+EFPHqaFg+qvw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.L10N.LanguageEditor.AddKeyWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.L10N.LanguageEditor.AddKeyWindow.html",
+          "hash": "u1KbAQ1wUHlq/eAan0lCXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.L10N.LanguageEditor.Entry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.L10N.LanguageEditor.Entry.html",
+          "hash": "A2DR+oGQWNu2yrB8OZo+iA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.L10N.LanguageEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.L10N.LanguageEditor.html",
+          "hash": "rAnI6et34bfFoIG1FS815w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.L10N.LocalizationBuildPostProcess.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.L10N.LocalizationBuildPostProcess.html",
+          "hash": "X2CZqIGXj1dlfhQYbA6X5w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.L10N.LocalizerStructureInstaller.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.L10N.LocalizerStructureInstaller.html",
+          "hash": "4iu+QCTQJ/tXxppxY1tZZw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.L10N.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.L10N.html",
+          "hash": "VS2vLyyvsh22O4aQZVS0jw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.LayerUsageCheck.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.LayerUsageCheck.html",
+          "hash": "/nfePTpkDnYgBdro1HGEbA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.MassReplacePrefabs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.MassReplacePrefabs.html",
+          "hash": "IUBwXA3+yhMCJtJlDDSqAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.PlaymodeEditorKeybinds.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.PlaymodeEditorKeybinds.html",
+          "hash": "VzAbbdAcd5S/4h62xc367g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.PropertyDrawerUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.PropertyDrawerUtility.html",
+          "hash": "ojwo3Rt7ycc6fRSBvqM/pQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.SceneObjectReferenceDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.SceneObjectReferenceDrawer.html",
+          "hash": "Cjq/ao3SYrpuR2W/i8Z10w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.TaskList.Task.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.TaskList.Task.html",
+          "hash": "1gFHcsSjC4zKSdFq419iBA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.TaskList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.TaskList.html",
+          "hash": "AhnPvAxKrsmaiHdjrJsQnQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.TaskListEditor.PrioComparer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.TaskListEditor.PrioComparer.html",
+          "hash": "jByw+qXH9d3ZOl9qDNWBOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.TaskListEditor.TaskListAuxWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.TaskListEditor.TaskListAuxWindow.html",
+          "hash": "NlOCIm3l6TfFfaMrxspW1Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.TaskListEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.TaskListEditor.html",
+          "hash": "xKfUu5kJXkfvSs9+u3W2AQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.TextureFontAssetEditor.Subset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.TextureFontAssetEditor.Subset.html",
+          "hash": "Y955dvMH9uiSlSK1dJ9MNA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.TextureFontAssetEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.TextureFontAssetEditor.html",
+          "hash": "IWWzWCa5n0mVLAP96Jo6xA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.Tools.CableEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.Tools.CableEditor.html",
+          "hash": "yPd9QGU2qreTMEElsaRHNQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.Tools.SaveFileExplorer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.Tools.SaveFileExplorer.html",
+          "hash": "QaLZtSk0XewXaSTQo1eG4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.Tools.TapeMeasure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.Tools.TapeMeasure.html",
+          "hash": "6RjEhL1St99HdxZy2u0vDA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.Tools.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.Tools.html",
+          "hash": "3+vfBLn0STBo162XRFLO8w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.TransformRandomizer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.TransformRandomizer.html",
+          "hash": "zvneaKon1+kUeprFKHZRKg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.UnusedAssetDetector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.UnusedAssetDetector.html",
+          "hash": "98t6QNdiZ1hQIJV6vBkFsw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.html",
+          "hash": "svjE7KXgGq1YpAytvF5+qw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tests.CoreTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tests.CoreTests.html",
+          "hash": "aWDZDMWRfdhYbAX10p5mnw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tests.html",
+          "hash": "Wxes1ieF6PkdXHdZ0BL+5Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "cX9g+CCI0Xyt0sf24Y1ajQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "QI75OKpgHycodX/14R3Kdw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "changelog/CHANGELOG.md",
+      "output": {
+        ".html": {
+          "relative_path": "changelog/CHANGELOG.html",
+          "hash": "T3yejETCKUnM/CGOTs5mCA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "changelog/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "changelog/toc.html",
+          "hash": "er7vSBKn65+5pD4EohwoyQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "favicon.png",
+      "output": {
+        "resource": {
+          "relative_path": "favicon.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "DPx7TQTx4i8dpe8vcseldA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "license/LICENSE.md",
+      "output": {
+        ".html": {
+          "relative_path": "license/LICENSE.html",
+          "hash": "9ACAFE4GiFCb54/cSUsmjQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "license/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "license/index.html",
+          "hash": "4r7aSE3IRjDBknyOap+yBg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "license/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "license/toc.html",
+          "hash": "a5l0eX4w53vC8/xpM0NC5A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "logo.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "manual/api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "manual/api/toc.html",
+          "hash": "v6cTBK+TaV6xV2evQAZGJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/index.html",
+          "hash": "wpl9LQwpq8nJF2WZS42gFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/manual/etiam.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/manual/etiam.html",
+          "hash": "e9YdHl7JDcIJlZFF/mhD8A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Toc",
+      "source_relative_path": "manual/manual/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "manual/manual/toc.html",
+          "hash": "6NZzo6hxAv9J0OOZzCdAEw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "manual/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "manual/toc.html",
+          "hash": "6ztZuw0QXuiphUuhhPc9PA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "mwSaQttPoVD1n98RlCmghA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 313,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 7,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

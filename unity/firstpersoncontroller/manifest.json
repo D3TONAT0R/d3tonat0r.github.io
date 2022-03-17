@@ -1,0 +1,1222 @@
+{
+  "homepages": [],
+  "source_base_path": "c:/temp/com.github.d3tonat0r.firstpersoncontroller@0.9",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Animation.AnimatorIKEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Animation.AnimatorIKEditor.html",
+          "hash": "JB+Yk7KzkX5eCR2P4MoFnQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Animation.HandIKConstraint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Animation.HandIKConstraint.html",
+          "hash": "5XfT7pke0HqhxyWu58hxvw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Animation.StateMachineSyncer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Animation.StateMachineSyncer.html",
+          "hash": "2Q5OiAbMSpF+viR+vaKvqg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Animation.TransferAnimatorParam.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Animation.TransferAnimatorParam.html",
+          "hash": "GTdJiDSxiKiKxfLesq35CQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Animation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Animation.html",
+          "hash": "sEGM5arT7gKR1pL/CRZ75g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.ClosestPointInTrigger.TargetType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.ClosestPointInTrigger.TargetType.html",
+          "hash": "7oj5yLMeo1fM83Na2CDixw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.ClosestPointInTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.ClosestPointInTrigger.html",
+          "hash": "m/5Ozada2Bbh+kUSpLAMkw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.IPlayerRespawnController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.IPlayerRespawnController.html",
+          "hash": "z6KSVbwQ981/SZ2KDQ3Fjw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.IPlayerStepEventListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.IPlayerStepEventListener.html",
+          "hash": "e3dyPvgOc52RnVIcM0OQbw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Interaction.ContiniousInteractionObject.IKSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Interaction.ContiniousInteractionObject.IKSettings.html",
+          "hash": "91jvRVzvwXCjH0NlHsgpsg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Interaction.ContiniousInteractionObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Interaction.ContiniousInteractionObject.html",
+          "hash": "X/GJwLyzEeo5lFDSESbWhg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Interaction.GrabbableProp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Interaction.GrabbableProp.html",
+          "hash": "+LDgeCbvrG8OOR8uiamwtw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Interaction.Items.HandheldItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Interaction.Items.HandheldItem.html",
+          "hash": "TZaKubtDxtc4/UZjeNmX2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Interaction.Items.ItemManager.DragSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Interaction.Items.ItemManager.DragSettings.html",
+          "hash": "36Ug4HibzYi2lm+EzF7T4w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Interaction.Items.ItemManager.SwitchToNewBehaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Interaction.Items.ItemManager.SwitchToNewBehaviour.html",
+          "hash": "1/mZ23Ig/eHzPn997g3dHg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Interaction.Items.ItemManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Interaction.Items.ItemManager.html",
+          "hash": "v5TXWF1uF3Ai8eeoM22vuQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Interaction.Items.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Interaction.Items.html",
+          "hash": "dRZ1NS/J2beQ6YUJfoAmxw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Interaction.Ladder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Interaction.Ladder.html",
+          "hash": "DCUY8g2/2oGcKP43aqknbA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Interaction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Interaction.html",
+          "hash": "Mk2vwp1HZaeTvJ12kgOCUA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Player.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Player.html",
+          "hash": "MUxHASj1LgvNkNfJsKWuhQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.PlayerInput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.PlayerInput.html",
+          "hash": "ZrdMSxs6btSLhEtMhjXO+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.PlayerInputSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.PlayerInputSystem.html",
+          "hash": "i+b0AE7Nw0fyanS1nLgLfw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Players.FirstPersonController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Players.FirstPersonController.html",
+          "hash": "Ayxd4KI8PpJ6qQAWycsN2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Players.FirstPersonControllerCommands.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Players.FirstPersonControllerCommands.html",
+          "hash": "K5JY+9XXrefK8qRl1DaCWA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Players.FrameRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Players.FrameRecord.html",
+          "hash": "wRaPxT97xsPeMcT2cJlSGQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Players.HeadAnimationEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Players.HeadAnimationEventHandler.html",
+          "hash": "0Qjn53kB03qgcZDc4FiCeg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Players.IPlayerDeathController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Players.IPlayerDeathController.html",
+          "hash": "F2beZfteF2MZjjV1ahmdRA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Players.MouseLook.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Players.MouseLook.html",
+          "hash": "mLlVhQF7J6MxyJNr75Qp9A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Players.MovementSpeed.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Players.MovementSpeed.html",
+          "hash": "o7ss3Ay23y1p6Dyn6IIYdw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Players.PlayerAbilityModifierSet.Modifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Players.PlayerAbilityModifierSet.Modifier.html",
+          "hash": "ycpu8qeMun4AmYguMGNjCQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Players.PlayerAbilityModifierSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Players.PlayerAbilityModifierSet.html",
+          "hash": "doSBg/dcbQbpy+Dcy3BSvQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Players.PlayerAbilityZone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Players.PlayerAbilityZone.html",
+          "hash": "he+/QODiKaREICcshEHgwg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Players.PlayerHeadAnimatorModule.Animation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Players.PlayerHeadAnimatorModule.Animation.html",
+          "hash": "cjc/xxamnl0aDsCHTNkoRw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Players.PlayerHeadAnimatorModule.HeadTilt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Players.PlayerHeadAnimatorModule.HeadTilt.html",
+          "hash": "Pb6KXe2dsjdmCCFQ6y10Ww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Players.PlayerHeadAnimatorModule.HitEffects.EffectType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Players.PlayerHeadAnimatorModule.HitEffects.EffectType.html",
+          "hash": "xXnfU1G0WvaSm9NLIp8Gyg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Players.PlayerHeadAnimatorModule.HitEffects.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Players.PlayerHeadAnimatorModule.HitEffects.html",
+          "hash": "Sw1A5nronyShDIGftap0IA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Players.PlayerHeadAnimatorModule.Kick.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Players.PlayerHeadAnimatorModule.Kick.html",
+          "hash": "2K1SOOkV20lWrjJZGO5NdQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Players.PlayerHeadAnimatorModule.Shake.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Players.PlayerHeadAnimatorModule.Shake.html",
+          "hash": "fEYI/SzXkJWzA6QjmxMe1g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Players.PlayerHeadAnimatorModule.SpeedFOV.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Players.PlayerHeadAnimatorModule.SpeedFOV.html",
+          "hash": "iyrzDzcT7hKdRvR/6OKhoQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Players.PlayerHeadAnimatorModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Players.PlayerHeadAnimatorModule.html",
+          "hash": "BFXDP6bfRqQ/yc3p0uztAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Players.PlayerHealthAudioFilterController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Players.PlayerHealthAudioFilterController.html",
+          "hash": "NcMLsiyj0KBFZFf8K3avqA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Players.PlayerHealthModule.AutoHealing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Players.PlayerHealthModule.AutoHealing.html",
+          "hash": "ULyh/LoeKuaChUVqhpHgJQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Players.PlayerHealthModule.FallDamage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Players.PlayerHealthModule.FallDamage.html",
+          "hash": "o3iP4KbBsleegZj/2GKoLA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Players.PlayerHealthModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Players.PlayerHealthModule.html",
+          "hash": "/NLI0vgzSxmjYPl5u91TWQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Players.PlayerInputController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Players.PlayerInputController.html",
+          "hash": "rZml8tcrk1hNcqnXHMT1Vw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Players.PlayerInteractionModule.PropGrabbing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Players.PlayerInteractionModule.PropGrabbing.html",
+          "hash": "svLQKC5CElYcf6rRHhIxBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Players.PlayerInteractionModule.RaycastSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Players.PlayerInteractionModule.RaycastSettings.html",
+          "hash": "fUBLEh2AfQnkGH9OaKvKjw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Players.PlayerInteractionModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Players.PlayerInteractionModule.html",
+          "hash": "eFkWqVpwqvmSjK9mMeF8lQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Players.PlayerModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Players.PlayerModule.html",
+          "hash": "PILbIneSY5YJRqFP88M1Wg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Players.PlayerMovementModule.CrouchSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Players.PlayerMovementModule.CrouchSettings.html",
+          "hash": "vT5wA9vK4p8DuNmuIIU2aQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Players.PlayerMovementModule.PlatformHandling.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Players.PlayerMovementModule.PlatformHandling.html",
+          "hash": "staiC78nOgTj4FQXSqzgVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Players.PlayerMovementModule.RigidbodyFeedbackSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Players.PlayerMovementModule.RigidbodyFeedbackSettings.html",
+          "hash": "49cG/55NHWYW3kWeeAh80g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Players.PlayerMovementModule.RunSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Players.PlayerMovementModule.RunSettings.html",
+          "hash": "1YS5CYuet3Wl6xoCuUPngA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Players.PlayerMovementModule.StaminaSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Players.PlayerMovementModule.StaminaSettings.html",
+          "hash": "0sqJW9YOUU7ZJoK6OCJ2Aw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Players.PlayerMovementModule.SwimmingSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Players.PlayerMovementModule.SwimmingSettings.html",
+          "hash": "XIShmaLXdNVaatK2rnCeSw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Players.PlayerMovementModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Players.PlayerMovementModule.html",
+          "hash": "JsTa+8wxab/6yhlZaiXj0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Players.PlayerRigAnimatorModule.HeadBobSynchronizationSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Players.PlayerRigAnimatorModule.HeadBobSynchronizationSettings.html",
+          "hash": "SiSmuckYDIpTX39KfpIl1A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Players.PlayerRigAnimatorModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Players.PlayerRigAnimatorModule.html",
+          "hash": "6KwrlDX3lJEPTUfY964M8A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Players.PlayerSoundModule.StepSoundSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Players.PlayerSoundModule.StepSoundSet.html",
+          "hash": "TlkPMiSzU7IktWU4VlEaaw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Players.PlayerSoundModule.StepSounds.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Players.PlayerSoundModule.StepSounds.html",
+          "hash": "IoXSjb+icHXuktdPNfSY/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Players.PlayerSoundModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Players.PlayerSoundModule.html",
+          "hash": "6Q0unOh0ZISZ2TykGG4emg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Players.RespawnController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Players.RespawnController.html",
+          "hash": "lXInvDO7gitx/I/KLIg5+w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Players.StandardPlayerDeathController.RespawnAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Players.StandardPlayerDeathController.RespawnAction.html",
+          "hash": "PAz8K+ik0oif6soEo/pJ+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Players.StandardPlayerDeathController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Players.StandardPlayerDeathController.html",
+          "hash": "4t05kgk5sH3qJJTeGPH3Gw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Players.SupportsPlayerModifierAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Players.SupportsPlayerModifierAttribute.html",
+          "hash": "YaYuGw/9bzKC9NJtTx11UQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Players.ThirdPersonCamera.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Players.ThirdPersonCamera.html",
+          "hash": "ESu/H2ddIkfimf8njSznSg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Players.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Players.html",
+          "hash": "2wY8GUMu//ZVO5iTPIOFWA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.PlayerDistanceToPoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.PlayerDistanceToPoint.html",
+          "hash": "E8rNuYkUPlHU2tOuXU/O1A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.PlayerInArea.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.PlayerInArea.html",
+          "hash": "IkneIdPdSb7zNATp3Btn9g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.SetPlayerPosition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.SetPlayerPosition.html",
+          "hash": "pebz/oabL5Hb+hJI4HPdfw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.Zones.PortalTeleportationZone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.Zones.PortalTeleportationZone.html",
+          "hash": "AVC98JnwmbuvzHvJ1yMRlA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.Zones.WaterZone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.Zones.WaterZone.html",
+          "hash": "PKM+OlxV4oS3CLLhxte0lA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.Zones.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.Zones.html",
+          "hash": "wx+CfaGke05Pl5KfRHUdkg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Triggers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Triggers.html",
+          "hash": "UXANlOa29oqtAtOmZQ1qUA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Utility.ConfigurableJointExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Utility.ConfigurableJointExtensions.html",
+          "hash": "a76EwaFdP+3B/uBcCNTPlA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Utility.QuickTeleport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Utility.QuickTeleport.html",
+          "hash": "u2LOn1VQP5GFEpFYDikdWg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Utility.TeleporterDestination.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Utility.TeleporterDestination.html",
+          "hash": "L4Y/YD3MY4weK5I82/nzMg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Utility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Utility.html",
+          "hash": "y5MwssLdlQEKFtIH80VR2g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.html",
+          "hash": "FFnyETy83OIqjLhuBVONlg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.Inspector.ModifierDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.Inspector.ModifierDrawer.html",
+          "hash": "tGKamg+uptPr89u2l2VIBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.Inspector.ModifierSetDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.Inspector.ModifierSetDrawer.html",
+          "hash": "844fCn2cbO/i9tp8BU2kpg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.Inspector.Vector3DirDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.Inspector.Vector3DirDrawer.html",
+          "hash": "73cwSNh213w6aEXfEKd3dw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.Inspector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.Inspector.html",
+          "hash": "TJ7KDPpXh8UZuqq6NFzozw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "ucf154MZalRMT8qQAwJMjA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "yMsG0LvINSvhaHPKL6f/tw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "changelog/CHANGELOG.md",
+      "output": {
+        ".html": {
+          "relative_path": "changelog/CHANGELOG.html",
+          "hash": "GvvasqfBY7L5lFnx/k5ZsQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "changelog/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "changelog/toc.html",
+          "hash": "OKQCsOXH7fhBx+x5gcaLjg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "favicon.png",
+      "output": {
+        "resource": {
+          "relative_path": "favicon.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "Q70lZskgui9nxhFIwjPsng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "license/LICENSE.md",
+      "output": {
+        ".html": {
+          "relative_path": "license/LICENSE.html",
+          "hash": "6hD0Eq6G0X+qh0xFVWJUsw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "license/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "license/index.html",
+          "hash": "UJERD+Dj+5EsrRfvLPT1yw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "license/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "license/toc.html",
+          "hash": "hM2JEGLf8N/GrkcoKOzdAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "logo.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/index.html",
+          "hash": "IDHoNIYeQg55QjbmMb1Bkw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "manual/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "manual/toc.html",
+          "hash": "nM+/jJY6nglx/wk3R6bF7g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "7vpn973P7moV7UY1jKFhyA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 6,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 83,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

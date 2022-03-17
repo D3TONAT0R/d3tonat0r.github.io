@@ -1,0 +1,1324 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);  })(window,document,'script','dataLayer','GTM-5V25JL6');</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+  
+    <title>Class FirstPersonController
+   | D3T - First Person Controller | 0.9.12 </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class FirstPersonController
+   | D3T - First Person Controller | 0.9.12 ">
+    <meta name="generator" content="docfx 2.40.12.0">
+    
+    <link rel="shortcut icon" href="../favicon.png">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="unity:packageTitle" content="D3T - First Person Controller | 0.9.12">
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" class="">
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5V25JL6" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+        
+        		<div class="back-to-unity-group">
+        			<a class="back-to-unity" href="http://docs.unity3d.com/">docs.unity3d.com</a>
+        		</div>
+        
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items"></div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="D3T.Players.FirstPersonController">
+  
+  
+  <h1 id="D3T_Players_FirstPersonController" data-uid="D3T.Players.FirstPersonController">Class FirstPersonController
+  </h1>
+  <div class="markdown level0 summary"><p>The main component of a player object.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><a class="xref" href="D3T.Player.html">Player</a></div>
+    <div class="level2"><span class="xref">FirstPersonController</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="D3T.Player.html#D3T_Player_instance">Player.instance</a>
+    </div>
+    <div>
+      <a class="xref" href="D3T.Player.html#D3T_Player_canControl">Player.canControl</a>
+    </div>
+    <div>
+      <a class="xref" href="D3T.Player.html#D3T_Player_InputComponent">Player.InputComponent</a>
+    </div>
+    <div>
+      <a class="xref" href="D3T.Player.html#D3T_Player_BottomPoint">Player.BottomPoint</a>
+    </div>
+    <div>
+      <a class="xref" href="D3T.Player.html#D3T_Player_BottomCapsuleDomeCenter">Player.BottomCapsuleDomeCenter</a>
+    </div>
+    <div>
+      <a class="xref" href="D3T.Player.html#D3T_Player_HorizontalVelocity">Player.HorizontalVelocity</a>
+    </div>
+    <div>
+      <a class="xref" href="D3T.Player.html#D3T_Player_HorizontalLocalVelocity">Player.HorizontalLocalVelocity</a>
+    </div>
+    <div>
+      <a class="xref" href="D3T.Player.html#D3T_Player_modules">Player.modules</a>
+    </div>
+    <div>
+      <a class="xref" href="D3T.Player.html#D3T_Player_moduleDictionary">Player.moduleDictionary</a>
+    </div>
+    <div>
+      <a class="xref" href="D3T.Player.html#D3T_Player_IsAlive">Player.IsAlive</a>
+    </div>
+    <div>
+      <a class="xref" href="D3T.Player.html#D3T_Player_LifeTime">Player.LifeTime</a>
+    </div>
+    <div>
+      <a class="xref" href="D3T.Player.html#D3T_Player_Awake">Player.Awake()</a>
+    </div>
+    <div>
+      <a class="xref" href="D3T.Player.html#D3T_Player_GetInput_Vector2__System_Boolean__Vector2__">Player.GetInput(Vector2, Boolean, Vector2)</a>
+    </div>
+    <div>
+      <a class="xref" href="D3T.Player.html#D3T_Player_CalcTargetWorldVelocity_Vector2_D3T_Players_MovementSpeed_">Player.CalcTargetWorldVelocity(Vector2, MovementSpeed)</a>
+    </div>
+    <div>
+      <a class="xref" href="D3T.Player.html#D3T_Player_Teleport_Transform_System_Boolean_">Player.Teleport(Transform, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="D3T.Player.html#D3T_Player_HasModule_System_Type_">Player.HasModule(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="D3T.Player.html#D3T_Player_HasModuleActive__1">Player.HasModuleActive&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="D3T.Player.html#D3T_Player_GetModule__1">Player.GetModule&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="D3T.Player.html#D3T_Player_TryGetModule__1___0__">Player.TryGetModule&lt;T&gt;(T)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="D3T.Players.html">D3T.Players</a></h6>
+  <!--h6><strong>Assembly</strong>: solution.dll</h6-->
+  <h5 id="D3T_Players_FirstPersonController_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SupportsPlayerModifier(&quot;speed&quot;)]
+[SupportsPlayerModifier(&quot;jump&quot;)]
+[SupportsPlayerModifier(&quot;gravity&quot;)]
+[SupportsPlayerModifier(&quot;step_offset&quot;)]
+[SupportsPlayerModifier(&quot;ground_force&quot;)]
+[SupportsPlayerModifier(&quot;air_control&quot;)]
+public class FirstPersonController : Player, ISerializable</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="D3T_Players_FirstPersonController_abilityModifiers" data-uid="D3T.Players.FirstPersonController.abilityModifiers">abilityModifiers</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Dictionary&lt;string, PlayerAbilityModifierSet&gt; abilityModifiers</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>, <a class="xref" href="D3T.Players.PlayerAbilityModifierSet.html">PlayerAbilityModifierSet</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="D3T_Players_FirstPersonController_accelerationRate" data-uid="D3T.Players.FirstPersonController.accelerationRate">accelerationRate</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float accelerationRate</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="D3T_Players_FirstPersonController_canJump" data-uid="D3T.Players.FirstPersonController.canJump">canJump</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool canJump</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="D3T_Players_FirstPersonController_debugHighVelocityCancellation" data-uid="D3T.Players.FirstPersonController.debugHighVelocityCancellation">debugHighVelocityCancellation</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool debugHighVelocityCancellation</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="D3T_Players_FirstPersonController_decelerationRate" data-uid="D3T.Players.FirstPersonController.decelerationRate">decelerationRate</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float decelerationRate</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="D3T_Players_FirstPersonController_groundedControl" data-uid="D3T.Players.FirstPersonController.groundedControl">groundedControl</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float groundedControl</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="D3T_Players_FirstPersonController_highVelocityCancellationThreshold" data-uid="D3T.Players.FirstPersonController.highVelocityCancellationThreshold">highVelocityCancellationThreshold</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float highVelocityCancellationThreshold</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="D3T_Players_FirstPersonController_jumpSpeed" data-uid="D3T.Players.FirstPersonController.jumpSpeed">jumpSpeed</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float jumpSpeed</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="D3T_Players_FirstPersonController_m_CharacterController" data-uid="D3T.Players.FirstPersonController.m_CharacterController">m_CharacterController</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CharacterController m_CharacterController</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">CharacterController</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="D3T_Players_FirstPersonController_m_MouseLook" data-uid="D3T.Players.FirstPersonController.m_MouseLook">m_MouseLook</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MouseLook m_MouseLook</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="D3T.Players.MouseLook.html">MouseLook</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="D3T_Players_FirstPersonController_m_MoveDir" data-uid="D3T.Players.FirstPersonController.m_MoveDir">m_MoveDir</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 m_MoveDir</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="D3T_Players_FirstPersonController_m_WalkSpeed" data-uid="D3T.Players.FirstPersonController.m_WalkSpeed">m_WalkSpeed</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MovementSpeed m_WalkSpeed</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="D3T.Players.MovementSpeed.html">MovementSpeed</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="D3T_Players_FirstPersonController_mainCamera" data-uid="D3T.Players.FirstPersonController.mainCamera">mainCamera</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Camera mainCamera</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Camera</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="D3T_Players_FirstPersonController_mouseLookTransform" data-uid="D3T.Players.FirstPersonController.mouseLookTransform">mouseLookTransform</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform mouseLookTransform</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Transform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="D3T_Players_FirstPersonController_playerInstance" data-uid="D3T.Players.FirstPersonController.playerInstance">playerInstance</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FirstPersonController playerInstance</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="D3T.Players.FirstPersonController.html">FirstPersonController</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="D3T_Players_FirstPersonController_totalModifier" data-uid="D3T.Players.FirstPersonController.totalModifier">totalModifier</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NonSerialized]
+public PlayerAbilityModifierSet totalModifier</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="D3T.Players.PlayerAbilityModifierSet.html">PlayerAbilityModifierSet</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="D3T_Players_FirstPersonController_AllowJumping_" data-uid="D3T.Players.FirstPersonController.AllowJumping*"></a>
+  <h4 id="D3T_Players_FirstPersonController_AllowJumping" data-uid="D3T.Players.FirstPersonController.AllowJumping">AllowJumping</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AllowJumping { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="D3T_Players_FirstPersonController_AllowMovement_" data-uid="D3T.Players.FirstPersonController.AllowMovement*"></a>
+  <h4 id="D3T_Players_FirstPersonController_AllowMovement" data-uid="D3T.Players.FirstPersonController.AllowMovement">AllowMovement</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool AllowMovement { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="D3T.Player.html#D3T_Player_AllowMovement">Player.AllowMovement</a></div>
+  
+  
+  <a id="D3T_Players_FirstPersonController_Camera_" data-uid="D3T.Players.FirstPersonController.Camera*"></a>
+  <h4 id="D3T_Players_FirstPersonController_Camera" data-uid="D3T.Players.FirstPersonController.Camera">Camera</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override Camera Camera { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Camera</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="D3T.Player.html#D3T_Player_Camera">Player.Camera</a></div>
+  
+  
+  <a id="D3T_Players_FirstPersonController_DefaultMovementSpeed_" data-uid="D3T.Players.FirstPersonController.DefaultMovementSpeed*"></a>
+  <h4 id="D3T_Players_FirstPersonController_DefaultMovementSpeed" data-uid="D3T.Players.FirstPersonController.DefaultMovementSpeed">DefaultMovementSpeed</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override MovementSpeed DefaultMovementSpeed { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="D3T.Players.MovementSpeed.html">MovementSpeed</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="D3T.Player.html#D3T_Player_DefaultMovementSpeed">Player.DefaultMovementSpeed</a></div>
+  
+  
+  <a id="D3T_Players_FirstPersonController_ExternalMovementVelocity_" data-uid="D3T.Players.FirstPersonController.ExternalMovementVelocity*"></a>
+  <h4 id="D3T_Players_FirstPersonController_ExternalMovementVelocity" data-uid="D3T.Players.FirstPersonController.ExternalMovementVelocity">ExternalMovementVelocity</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override Vector3 ExternalMovementVelocity { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="D3T.Player.html#D3T_Player_ExternalMovementVelocity">Player.ExternalMovementVelocity</a></div>
+  
+  
+  <a id="D3T_Players_FirstPersonController_GroundedControl_" data-uid="D3T.Players.FirstPersonController.GroundedControl*"></a>
+  <h4 id="D3T_Players_FirstPersonController_GroundedControl" data-uid="D3T.Players.FirstPersonController.GroundedControl">GroundedControl</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override float GroundedControl { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="D3T.Player.html#D3T_Player_GroundedControl">Player.GroundedControl</a></div>
+  
+  
+  <a id="D3T_Players_FirstPersonController_IsGrounded_" data-uid="D3T.Players.FirstPersonController.IsGrounded*"></a>
+  <h4 id="D3T_Players_FirstPersonController_IsGrounded" data-uid="D3T.Players.FirstPersonController.IsGrounded">IsGrounded</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsGrounded { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="D3T.Player.html#D3T_Player_IsGrounded">Player.IsGrounded</a></div>
+  
+  
+  <a id="D3T_Players_FirstPersonController_LocalBottomPointOffset_" data-uid="D3T.Players.FirstPersonController.LocalBottomPointOffset*"></a>
+  <h4 id="D3T_Players_FirstPersonController_LocalBottomPointOffset" data-uid="D3T.Players.FirstPersonController.LocalBottomPointOffset">LocalBottomPointOffset</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override Vector3 LocalBottomPointOffset { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="D3T.Player.html#D3T_Player_LocalBottomPointOffset">Player.LocalBottomPointOffset</a></div>
+  
+  
+  <a id="D3T_Players_FirstPersonController_LocalVelocity_" data-uid="D3T.Players.FirstPersonController.LocalVelocity*"></a>
+  <h4 id="D3T_Players_FirstPersonController_LocalVelocity" data-uid="D3T.Players.FirstPersonController.LocalVelocity">LocalVelocity</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override Vector3 LocalVelocity { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="D3T.Player.html#D3T_Player_LocalVelocity">Player.LocalVelocity</a></div>
+  
+  
+  <a id="D3T_Players_FirstPersonController_MouseLook_" data-uid="D3T.Players.FirstPersonController.MouseLook*"></a>
+  <h4 id="D3T_Players_FirstPersonController_MouseLook" data-uid="D3T.Players.FirstPersonController.MouseLook">MouseLook</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override MouseLook MouseLook { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="D3T.Players.MouseLook.html">MouseLook</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="D3T.Player.html#D3T_Player_MouseLook">Player.MouseLook</a></div>
+  
+  
+  <a id="D3T_Players_FirstPersonController_MouseLookTransform_" data-uid="D3T.Players.FirstPersonController.MouseLookTransform*"></a>
+  <h4 id="D3T_Players_FirstPersonController_MouseLookTransform" data-uid="D3T.Players.FirstPersonController.MouseLookTransform">MouseLookTransform</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override Transform MouseLookTransform { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Transform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="D3T.Player.html#D3T_Player_MouseLookTransform">Player.MouseLookTransform</a></div>
+  
+  
+  <a id="D3T_Players_FirstPersonController_PlayerHeight_" data-uid="D3T.Players.FirstPersonController.PlayerHeight*"></a>
+  <h4 id="D3T_Players_FirstPersonController_PlayerHeight" data-uid="D3T.Players.FirstPersonController.PlayerHeight">PlayerHeight</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override float PlayerHeight { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="D3T.Player.html#D3T_Player_PlayerHeight">Player.PlayerHeight</a></div>
+  
+  
+  <a id="D3T_Players_FirstPersonController_PlayerRadius_" data-uid="D3T.Players.FirstPersonController.PlayerRadius*"></a>
+  <h4 id="D3T_Players_FirstPersonController_PlayerRadius" data-uid="D3T.Players.FirstPersonController.PlayerRadius">PlayerRadius</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override float PlayerRadius { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="D3T.Player.html#D3T_Player_PlayerRadius">Player.PlayerRadius</a></div>
+  
+  
+  <a id="D3T_Players_FirstPersonController_SerializationEnabled_" data-uid="D3T.Players.FirstPersonController.SerializationEnabled*"></a>
+  <h4 id="D3T_Players_FirstPersonController_SerializationEnabled" data-uid="D3T.Players.FirstPersonController.SerializationEnabled">SerializationEnabled</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SerializationEnabled { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="D3T_Players_FirstPersonController_StepOffset_" data-uid="D3T.Players.FirstPersonController.StepOffset*"></a>
+  <h4 id="D3T_Players_FirstPersonController_StepOffset" data-uid="D3T.Players.FirstPersonController.StepOffset">StepOffset</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override float StepOffset { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="D3T.Player.html#D3T_Player_StepOffset">Player.StepOffset</a></div>
+  
+  
+  <a id="D3T_Players_FirstPersonController_Velocity_" data-uid="D3T.Players.FirstPersonController.Velocity*"></a>
+  <h4 id="D3T_Players_FirstPersonController_Velocity" data-uid="D3T.Players.FirstPersonController.Velocity">Velocity</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override Vector3 Velocity { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="D3T.Player.html#D3T_Player_Velocity">Player.Velocity</a></div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="D3T_Players_FirstPersonController_CalcTotalModifier_" data-uid="D3T.Players.FirstPersonController.CalcTotalModifier*"></a>
+  <h4 id="D3T_Players_FirstPersonController_CalcTotalModifier" data-uid="D3T.Players.FirstPersonController.CalcTotalModifier">CalcTotalModifier()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void CalcTotalModifier()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="D3T.Player.html#D3T_Player_CalcTotalModifier">Player.CalcTotalModifier()</a></div>
+  
+  
+  <a id="D3T_Players_FirstPersonController_Load_" data-uid="D3T.Players.FirstPersonController.Load*"></a>
+  <h4 id="D3T_Players_FirstPersonController_Load_DataContainer_" data-uid="D3T.Players.FirstPersonController.Load(DataContainer)">Load(DataContainer)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Load(DataContainer container)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DataContainer</span></td>
+        <td><span class="parametername">container</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="D3T_Players_FirstPersonController_OnAwake_" data-uid="D3T.Players.FirstPersonController.OnAwake*"></a>
+  <h4 id="D3T_Players_FirstPersonController_OnAwake" data-uid="D3T.Players.FirstPersonController.OnAwake">OnAwake()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnAwake()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="D3T.Player.html#D3T_Player_OnAwake">Player.OnAwake()</a></div>
+  
+  
+  <a id="D3T_Players_FirstPersonController_OnFixedUpdate_" data-uid="D3T.Players.FirstPersonController.OnFixedUpdate*"></a>
+  <h4 id="D3T_Players_FirstPersonController_OnFixedUpdate" data-uid="D3T.Players.FirstPersonController.OnFixedUpdate">OnFixedUpdate()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnFixedUpdate()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="D3T.Player.html#D3T_Player_OnFixedUpdate">Player.OnFixedUpdate()</a></div>
+  
+  
+  <a id="D3T_Players_FirstPersonController_PredictPosition_" data-uid="D3T.Players.FirstPersonController.PredictPosition*"></a>
+  <h4 id="D3T_Players_FirstPersonController_PredictPosition_System_Single_" data-uid="D3T.Players.FirstPersonController.PredictPosition(System.Single)">PredictPosition(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 PredictPosition(float t)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">t</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="D3T_Players_FirstPersonController_RegisterModifier_" data-uid="D3T.Players.FirstPersonController.RegisterModifier*"></a>
+  <h4 id="D3T_Players_FirstPersonController_RegisterModifier_System_String_D3T_Players_PlayerAbilityModifierSet_" data-uid="D3T.Players.FirstPersonController.RegisterModifier(System.String,D3T.Players.PlayerAbilityModifierSet)">RegisterModifier(String, PlayerAbilityModifierSet)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool RegisterModifier(string uID, PlayerAbilityModifierSet modifier)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">uID</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="D3T.Players.PlayerAbilityModifierSet.html">PlayerAbilityModifierSet</a></td>
+        <td><span class="parametername">modifier</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="D3T.Player.html#D3T_Player_RegisterModifier_System_String_D3T_Players_PlayerAbilityModifierSet_">Player.RegisterModifier(String, PlayerAbilityModifierSet)</a></div>
+  
+  
+  <a id="D3T_Players_FirstPersonController_RemoveModifier_" data-uid="D3T.Players.FirstPersonController.RemoveModifier*"></a>
+  <h4 id="D3T_Players_FirstPersonController_RemoveModifier_System_String_" data-uid="D3T.Players.FirstPersonController.RemoveModifier(System.String)">RemoveModifier(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool RemoveModifier(string uID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">uID</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="D3T.Player.html#D3T_Player_RemoveModifier_System_String_">Player.RemoveModifier(String)</a></div>
+  
+  
+  <a id="D3T_Players_FirstPersonController_Save_" data-uid="D3T.Players.FirstPersonController.Save*"></a>
+  <h4 id="D3T_Players_FirstPersonController_Save_DataContainer_" data-uid="D3T.Players.FirstPersonController.Save(DataContainer)">Save(DataContainer)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Save(DataContainer container)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DataContainer</span></td>
+        <td><span class="parametername">container</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="D3T_Players_FirstPersonController_StopPlayer_" data-uid="D3T.Players.FirstPersonController.StopPlayer*"></a>
+  <h4 id="D3T_Players_FirstPersonController_StopPlayer_System_Boolean_" data-uid="D3T.Players.FirstPersonController.StopPlayer(System.Boolean)">StopPlayer(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void StopPlayer(bool stop)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">stop</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="D3T.Player.html#D3T_Player_StopPlayer_System_Boolean_">Player.StopPlayer(Boolean)</a></div>
+  
+  
+  <a id="D3T_Players_FirstPersonController_Teleport_" data-uid="D3T.Players.FirstPersonController.Teleport*"></a>
+  <h4 id="D3T_Players_FirstPersonController_Teleport_Vector3_Vector3_System_Boolean_" data-uid="D3T.Players.FirstPersonController.Teleport(Vector3,Vector3,System.Boolean)">Teleport(Vector3, Vector3, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Teleport(Vector3 position, Vector3 rotation, bool seamless = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">position</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">rotation</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">seamless</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="D3T.Player.html#D3T_Player_Teleport_Vector3_Vector3_System_Boolean_">Player.Teleport(Vector3, Vector3, Boolean)</a></div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Documentation template by Unity Technologies<br>Generated using <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

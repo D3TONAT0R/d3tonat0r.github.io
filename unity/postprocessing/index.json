@@ -1,0 +1,237 @@
+{
+  "api/D3T.PostProcessing.Effects.BrightnessGammaRenderer.html": {
+    "href": "api/D3T.PostProcessing.Effects.BrightnessGammaRenderer.html",
+    "title": "Class BrightnessGammaRenderer | D3T - Post Processing | 0.9.5",
+    "keywords": "Class BrightnessGammaRenderer Renderer for the Brightness/Gamma effect. Inheritance Object BrightnessGammaRenderer Namespace : D3T.PostProcessing.Effects <!--h6><strong>Assembly</strong>: solution.dll</h6--> Syntax public sealed class BrightnessGammaRenderer : PostProcessEffectRenderer<BrightnessGamma> Methods Render(PostProcessRenderContext) Declaration public override void Render(PostProcessRenderContext context) Parameters Type Name Description PostProcessRenderContext context"
+  },
+  "api/D3TEditor.Tools.html": {
+    "href": "api/D3TEditor.Tools.html",
+    "title": "Namespace D3TEditor.Tools | D3T - Post Processing | 0.9.5",
+    "keywords": "Namespace D3TEditor.Tools Classes EditorScreenshotWizard Enums EditorScreenshotWizard.Resolution"
+  },
+  "api/D3TEditor.Tools.EditorScreenshotWizard.html": {
+    "href": "api/D3TEditor.Tools.EditorScreenshotWizard.html",
+    "title": "Class EditorScreenshotWizard | D3T - Post Processing | 0.9.5",
+    "keywords": "Class EditorScreenshotWizard Inheritance Object EditorScreenshotWizard Namespace : D3TEditor.Tools <!--h6><strong>Assembly</strong>: solution.dll</h6--> Syntax public class EditorScreenshotWizard : ScriptableWizard Fields aperture Declaration public float aperture Field Value Type Description Single fieldOfView Declaration public int fieldOfView Field Value Type Description Int32 focusDistance Declaration public float focusDistance Field Value Type Description Single layers Declaration public LayerMask layers Field Value Type Description LayerMask lensShift Declaration public float lensShift Field Value Type Description Single postExposure Declaration public float postExposure Field Value Type Description Single postProcessProfile Declaration public PostProcessProfile postProcessProfile Field Value Type Description PostProcessProfile resolution Declaration public EditorScreenshotWizard.Resolution resolution Field Value Type Description EditorScreenshotWizard.Resolution screenshotPostProcessProfile Declaration public PostProcessProfile screenshotPostProcessProfile Field Value Type Description PostProcessProfile secondaryPostProcessProfile Declaration public PostProcessProfile secondaryPostProcessProfile Field Value Type Description PostProcessProfile useDOF Declaration public bool useDOF Field Value Type Description Boolean Methods CreateWizard() Declaration public static void CreateWizard()"
+  },
+  "api/D3T.PostProcessing.Effects.LowColorDitherRender.html": {
+    "href": "api/D3T.PostProcessing.Effects.LowColorDitherRender.html",
+    "title": "Class LowColorDitherRender | D3T - Post Processing | 0.9.5",
+    "keywords": "Class LowColorDitherRender Renderer for the LowColorDither effect. Inheritance Object LowColorDitherRender Namespace : D3T.PostProcessing.Effects <!--h6><strong>Assembly</strong>: solution.dll</h6--> Syntax public sealed class LowColorDitherRender : PostProcessEffectRenderer<LowColorDither> Methods Render(PostProcessRenderContext) Declaration public override void Render(PostProcessRenderContext context) Parameters Type Name Description PostProcessRenderContext context"
+  },
+  "api/D3T.PostProcessing.Effects.BrightnessGamma.html": {
+    "href": "api/D3T.PostProcessing.Effects.BrightnessGamma.html",
+    "title": "Class BrightnessGamma | D3T - Post Processing | 0.9.5",
+    "keywords": "Class BrightnessGamma Applies the Brightness/Gamma values set in the user's preferences. Inheritance Object BrightnessGamma Namespace : D3T.PostProcessing.Effects <!--h6><strong>Assembly</strong>: solution.dll</h6--> Syntax [Serializable] public sealed class BrightnessGamma : PostProcessEffectSettings"
+  },
+  "api/D3T.PostProcessing.PostProcessingCommands.html": {
+    "href": "api/D3T.PostProcessing.PostProcessingCommands.html",
+    "title": "Class PostProcessingCommands | D3T - Post Processing | 0.9.5",
+    "keywords": "Class PostProcessingCommands Inheritance Object PostProcessingCommands Namespace : D3T.PostProcessing <!--h6><strong>Assembly</strong>: solution.dll</h6--> Syntax public static class PostProcessingCommands Methods SetBrightnessLevel(String[]) Declaration public static bool SetBrightnessLevel(string[] args) Parameters Type Name Description String [] args Returns Type Description Boolean SetGammaLevel(String[]) Declaration public static bool SetGammaLevel(string[] args) Parameters Type Name Description String [] args Returns Type Description Boolean"
+  },
+  "api/D3T.PostProcessing.Effects.Overlay.html": {
+    "href": "api/D3T.PostProcessing.Effects.Overlay.html",
+    "title": "Class Overlay | D3T - Post Processing | 0.9.5",
+    "keywords": "Class Overlay Adds an overlay on top of the image. Inheritance Object Overlay Namespace : D3T.PostProcessing.Effects <!--h6><strong>Assembly</strong>: solution.dll</h6--> Syntax [Serializable] public sealed class Overlay : PostProcessEffectSettings Fields blend Declaration public FloatParameter blend Field Value Type Description FloatParameter texture Declaration public TextureParameter texture Field Value Type Description TextureParameter"
+  },
+  "api/D3T.PostProcessing.Effects.html": {
+    "href": "api/D3T.PostProcessing.Effects.html",
+    "title": "Namespace D3T.PostProcessing.Effects | D3T - Post Processing | 0.9.5",
+    "keywords": "Namespace D3T.PostProcessing.Effects Classes _Template _TemplateRender Blur Blurs the image. BlurEffect BlurModeParameter BrightnessGamma Applies the Brightness/Gamma values set in the user's preferences. BrightnessGammaRenderer Renderer for the Brightness/Gamma effect. LowColorDither Reduces the color depth and applies a dithering effect. LowColorDitherRender Renderer for the LowColorDither effect. LowerColorDepth Reduces the color depth of the image. LowerColorDepthRenderer Renderer for the LowerColorDepth effect. Outline Adds an outline effect with optional artistic jittering. OutlineRenderer Renderer for the Outline effect. Overlay Adds an overlay on top of the image. OverlayRenderer Renderer for the Overlay effect. Pixelate Pixelates the image. PixelateRender Renderer for the Pixelate effect. Underwater Applies underwater effects with fog and distortion. UnderwaterRenderer Renderer for the Underwater effect. VHSEffect Applies VHS style effects to the image. VHSEffectRenderer Renderer for the VHS effect. Enums BlurEffect.Mode BlurEffect.Pass Pixelate.Mode"
+  },
+  "api/D3T.PostProcessing.Effects.Underwater.html": {
+    "href": "api/D3T.PostProcessing.Effects.Underwater.html",
+    "title": "Class Underwater | D3T - Post Processing | 0.9.5",
+    "keywords": "Class Underwater Applies underwater effects with fog and distortion. Inheritance Object Underwater Namespace : D3T.PostProcessing.Effects <!--h6><strong>Assembly</strong>: solution.dll</h6--> Syntax [Serializable] public sealed class Underwater : PostProcessEffectSettings Fields ambientLightColor Declaration public ColorParameter ambientLightColor Field Value Type Description ColorParameter blend Declaration public FloatParameter blend Field Value Type Description FloatParameter color Declaration public ColorParameter color Field Value Type Description ColorParameter minObscurance Declaration public FloatParameter minObscurance Field Value Type Description FloatParameter refraction1speed Declaration public Vector2Parameter refraction1speed Field Value Type Description Vector2Parameter refraction2scale Declaration public FloatParameter refraction2scale Field Value Type Description FloatParameter refraction2speed Declaration public Vector2Parameter refraction2speed Field Value Type Description Vector2Parameter refractionBaseStrength Declaration public FloatParameter refractionBaseStrength Field Value Type Description FloatParameter refractionBumpMap Declaration public TextureParameter refractionBumpMap Field Value Type Description TextureParameter refractionBumpMapTiling Declaration public FloatParameter refractionBumpMapTiling Field Value Type Description FloatParameter refractionDistanceMultiplier Declaration public FloatParameter refractionDistanceMultiplier Field Value Type Description FloatParameter refractionSpeedScale Declaration public FloatParameter refractionSpeedScale Field Value Type Description FloatParameter refractionStrength Declaration public FloatParameter refractionStrength Field Value Type Description FloatParameter viewDistance Declaration public FloatParameter viewDistance Field Value Type Description FloatParameter viewDistancePower Declaration public FloatParameter viewDistancePower Field Value Type Description FloatParameter waterLevelYCoord Declaration public FloatParameter waterLevelYCoord Field Value Type Description FloatParameter Methods IsEnabledAndSupported(PostProcessRenderContext) Declaration public override bool IsEnabledAndSupported(PostProcessRenderContext context) Parameters Type Name Description PostProcessRenderContext context Returns Type Description Boolean"
+  },
+  "api/D3T.PostProcessing.Effects.OverlayRenderer.html": {
+    "href": "api/D3T.PostProcessing.Effects.OverlayRenderer.html",
+    "title": "Class OverlayRenderer | D3T - Post Processing | 0.9.5",
+    "keywords": "Class OverlayRenderer Renderer for the Overlay effect. Inheritance Object OverlayRenderer Namespace : D3T.PostProcessing.Effects <!--h6><strong>Assembly</strong>: solution.dll</h6--> Syntax public sealed class OverlayRenderer : PostProcessEffectRenderer<Overlay> Methods Render(PostProcessRenderContext) Declaration public override void Render(PostProcessRenderContext context) Parameters Type Name Description PostProcessRenderContext context"
+  },
+  "api/D3T.PostProcessing.Effects.Outline.html": {
+    "href": "api/D3T.PostProcessing.Effects.Outline.html",
+    "title": "Class Outline | D3T - Post Processing | 0.9.5",
+    "keywords": "Class Outline Adds an outline effect with optional artistic jittering. Inheritance Object Outline Namespace : D3T.PostProcessing.Effects <!--h6><strong>Assembly</strong>: solution.dll</h6--> Syntax [Serializable] public sealed class Outline : PostProcessEffectSettings Fields animateFillNoise Declaration public BoolParameter animateFillNoise Field Value Type Description BoolParameter animateLineJitter Declaration public BoolParameter animateLineJitter Field Value Type Description BoolParameter animationTimeStep Declaration public FloatParameter animationTimeStep Field Value Type Description FloatParameter backgroundColor Declaration public ColorParameter backgroundColor Field Value Type Description ColorParameter colorJitter Declaration public FloatParameter colorJitter Field Value Type Description FloatParameter colorTolerance Declaration public FloatParameter colorTolerance Field Value Type Description FloatParameter depthTolerance Declaration public FloatParameter depthTolerance Field Value Type Description FloatParameter fillColor Declaration public ColorParameter fillColor Field Value Type Description ColorParameter fillEnabled Declaration public BoolParameter fillEnabled Field Value Type Description BoolParameter fillNoiseIntensity Declaration public FloatParameter fillNoiseIntensity Field Value Type Description FloatParameter fillNoiseTexture Declaration public TextureParameter fillNoiseTexture Field Value Type Description TextureParameter fillNoiseTextureTiling Declaration public FloatParameter fillNoiseTextureTiling Field Value Type Description FloatParameter fillThreshold Declaration public FloatParameter fillThreshold Field Value Type Description FloatParameter fillThresholdHardness Declaration public FloatParameter fillThresholdHardness Field Value Type Description FloatParameter fillWithRGB Declaration public BoolParameter fillWithRGB Field Value Type Description BoolParameter fillWithRGBStrength Declaration public FloatParameter fillWithRGBStrength Field Value Type Description FloatParameter jitterMapTiling Declaration public FloatParameter jitterMapTiling Field Value Type Description FloatParameter jitterNormalMap Declaration public TextureParameter jitterNormalMap Field Value Type Description TextureParameter lineColor Declaration public ColorParameter lineColor Field Value Type Description ColorParameter lineJitter Declaration public FloatParameter lineJitter Field Value Type Description FloatParameter lineThickness Declaration public IntParameter lineThickness Field Value Type Description IntParameter normalTolerance Declaration public FloatParameter normalTolerance Field Value Type Description FloatParameter"
+  },
+  "api/D3T.PostProcessing.PostProcessVolumeIntensityController.html": {
+    "href": "api/D3T.PostProcessing.PostProcessVolumeIntensityController.html",
+    "title": "Class PostProcessVolumeIntensityController | D3T - Post Processing | 0.9.5",
+    "keywords": "Class PostProcessVolumeIntensityController Controls the PostProcessVolume's weight using the provided value. Inheritance Object PostProcessVolumeIntensityController Namespace : D3T.PostProcessing <!--h6><strong>Assembly</strong>: solution.dll</h6--> Syntax public class PostProcessVolumeIntensityController : CurveRemappedVCComponent Methods OnUpdate() Declaration protected override void OnUpdate()"
+  },
+  "api/D3T.PostProcessing.Effects._Template.html": {
+    "href": "api/D3T.PostProcessing.Effects._Template.html",
+    "title": "Class _Template | D3T - Post Processing | 0.9.5",
+    "keywords": "Class _Template Inheritance Object _Template Namespace : D3T.PostProcessing.Effects <!--h6><strong>Assembly</strong>: solution.dll</h6--> Syntax [Serializable] public sealed class _Template : PostProcessEffectSettings Fields blend Declaration public FloatParameter blend Field Value Type Description FloatParameter"
+  },
+  "api/D3T.Graphics.html": {
+    "href": "api/D3T.Graphics.html",
+    "title": "Namespace D3T.Graphics | D3T - Post Processing | 0.9.5",
+    "keywords": "Namespace D3T.Graphics Classes WaterVolume Extension to WaterObject that adds underwater effects. WaterVolume.EffectSettings"
+  },
+  "api/D3TEditor.Tools.EditorScreenshotWizard.Resolution.html": {
+    "href": "api/D3TEditor.Tools.EditorScreenshotWizard.Resolution.html",
+    "title": "Enum EditorScreenshotWizard.Resolution | D3T - Post Processing | 0.9.5",
+    "keywords": "Enum EditorScreenshotWizard.Resolution Namespace : D3TEditor.Tools <!--h6><strong>Assembly</strong>: solution.dll</h6--> Syntax public enum Resolution Fields Name Description Widescreen_1080p Widescreen_4K Widescreen_720p Widescreen_8K"
+  },
+  "api/D3T.PostProcessing.Effects._TemplateRender.html": {
+    "href": "api/D3T.PostProcessing.Effects._TemplateRender.html",
+    "title": "Class _TemplateRender | D3T - Post Processing | 0.9.5",
+    "keywords": "Class _TemplateRender Inheritance Object _TemplateRender Namespace : D3T.PostProcessing.Effects <!--h6><strong>Assembly</strong>: solution.dll</h6--> Syntax public sealed class _TemplateRender : PostProcessEffectRenderer<_Template> Methods Render(PostProcessRenderContext) Declaration public override void Render(PostProcessRenderContext context) Parameters Type Name Description PostProcessRenderContext context"
+  },
+  "api/D3T.PostProcessing.Effects.LowerColorDepthRenderer.html": {
+    "href": "api/D3T.PostProcessing.Effects.LowerColorDepthRenderer.html",
+    "title": "Class LowerColorDepthRenderer | D3T - Post Processing | 0.9.5",
+    "keywords": "Class LowerColorDepthRenderer Renderer for the LowerColorDepth effect. Inheritance Object LowerColorDepthRenderer Namespace : D3T.PostProcessing.Effects <!--h6><strong>Assembly</strong>: solution.dll</h6--> Syntax public sealed class LowerColorDepthRenderer : PostProcessEffectRenderer<LowerColorDepth> Methods Render(PostProcessRenderContext) Declaration public override void Render(PostProcessRenderContext context) Parameters Type Name Description PostProcessRenderContext context"
+  },
+  "api/D3T.PostProcessing.Effects.BlurModeParameter.html": {
+    "href": "api/D3T.PostProcessing.Effects.BlurModeParameter.html",
+    "title": "Class BlurModeParameter | D3T - Post Processing | 0.9.5",
+    "keywords": "Class BlurModeParameter Inheritance Object BlurModeParameter Namespace : D3T.PostProcessing.Effects <!--h6><strong>Assembly</strong>: solution.dll</h6--> Syntax [Serializable] public sealed class BlurModeParameter : ParameterOverride<BlurEffect.Mode>"
+  },
+  "api/D3TEditor.html": {
+    "href": "api/D3TEditor.html",
+    "title": "Namespace D3TEditor | D3T - Post Processing | 0.9.5",
+    "keywords": "Namespace D3TEditor Classes AlwaysIncludePostProcessShadersInBuild"
+  },
+  "api/D3T.PostProcessing.Effects.LowerColorDepth.html": {
+    "href": "api/D3T.PostProcessing.Effects.LowerColorDepth.html",
+    "title": "Class LowerColorDepth | D3T - Post Processing | 0.9.5",
+    "keywords": "Class LowerColorDepth Reduces the color depth of the image. Inheritance Object LowerColorDepth Namespace : D3T.PostProcessing.Effects <!--h6><strong>Assembly</strong>: solution.dll</h6--> Syntax [Serializable] public sealed class LowerColorDepth : PostProcessEffectSettings Fields bitDepth Declaration public IntParameter bitDepth Field Value Type Description IntParameter blend Declaration public FloatParameter blend Field Value Type Description FloatParameter"
+  },
+  "api/D3T.PostProcessing.DepthOfFieldController.html": {
+    "href": "api/D3T.PostProcessing.DepthOfFieldController.html",
+    "title": "Class DepthOfFieldController | D3T - Post Processing | 0.9.5",
+    "keywords": "Class DepthOfFieldController Controls the PostProcessVolume's depth of field focus distance using the provided value. Inheritance Object DepthOfFieldController Namespace : D3T.PostProcessing <!--h6><strong>Assembly</strong>: solution.dll</h6--> Syntax public class DepthOfFieldController : CurveRemappedVCComponent Methods OnUpdate() Declaration protected override void OnUpdate()"
+  },
+  "api/D3T.PostProcessing.PostProcessSettings.html": {
+    "href": "api/D3T.PostProcessing.PostProcessSettings.html",
+    "title": "Struct PostProcessSettings | D3T - Post Processing | 0.9.5",
+    "keywords": "Struct PostProcessSettings Container class for storing the player's post processing settings. Namespace : D3T.PostProcessing <!--h6><strong>Assembly</strong>: solution.dll</h6--> Syntax [Serializable] public struct PostProcessSettings Constructors PostProcessSettings(Boolean) Declaration public PostProcessSettings(bool defaultSetting) Parameters Type Name Description Boolean defaultSetting Fields ambientOcclusion Declaration public bool ambientOcclusion Field Value Type Description Boolean antialiasing Declaration public PostProcessQualityLevel antialiasing Field Value Type Description PostProcessQualityLevel autoExposure Declaration public bool autoExposure Field Value Type Description Boolean bloom Declaration public bool bloom Field Value Type Description Boolean chromaticAberration Declaration public bool chromaticAberration Field Value Type Description Boolean colorGrading Declaration public bool colorGrading Field Value Type Description Boolean grain Declaration public bool grain Field Value Type Description Boolean motionBlur Declaration public bool motionBlur Field Value Type Description Boolean painEffectIntensity Declaration public float painEffectIntensity Field Value Type Description Single vignette Declaration public bool vignette Field Value Type Description Boolean Properties AntialiasingMode Declaration public PostProcessLayer.Antialiasing AntialiasingMode { get; } Property Value Type Description PostProcessLayer.Antialiasing Methods GetSetting(PostProcessEffectSettings) Declaration public bool GetSetting(PostProcessEffectSettings effect) Parameters Type Name Description PostProcessEffectSettings effect Returns Type Description Boolean Load() Declaration public void Load() Save() Declaration public void Save()"
+  },
+  "api/D3T.PostProcessing.PostProcessQualityLevel.html": {
+    "href": "api/D3T.PostProcessing.PostProcessQualityLevel.html",
+    "title": "Enum PostProcessQualityLevel | D3T - Post Processing | 0.9.5",
+    "keywords": "Enum PostProcessQualityLevel Namespace : D3T.PostProcessing <!--h6><strong>Assembly</strong>: solution.dll</h6--> Syntax [Serializable] public enum PostProcessQualityLevel Fields Name Description High Low Medium Off"
+  },
+  "api/D3T.Graphics.WaterVolume.html": {
+    "href": "api/D3T.Graphics.WaterVolume.html",
+    "title": "Class WaterVolume | D3T - Post Processing | 0.9.5",
+    "keywords": "Class WaterVolume Extension to WaterObject that adds underwater effects. Inheritance Object WaterVolume Namespace : D3T.Graphics <!--h6><strong>Assembly</strong>: solution.dll</h6--> Syntax public class WaterVolume : WaterObject Fields effectSettings Declaration public WaterVolume.EffectSettings effectSettings Field Value Type Description WaterVolume.EffectSettings Methods CreateInstances(Boolean) Declaration protected override void CreateInstances(bool enablePlanarRef) Parameters Type Name Description Boolean enablePlanarRef Update() Declaration protected override void Update()"
+  },
+  "api/D3T.PostProcessing.html": {
+    "href": "api/D3T.PostProcessing.html",
+    "title": "Namespace D3T.PostProcessing | D3T - Post Processing | 0.9.5",
+    "keywords": "Namespace D3T.PostProcessing Classes DepthOfFieldController Controls the PostProcessVolume's depth of field focus distance using the provided value. PostProcessingCommands PostProcessSettingsController Applies the user's post process settings to all volumes in the scene. PostProcessUserPreferences User preferences for controlling global settings of built-in post process effects. PostProcessVolumeIntensityController Controls the PostProcessVolume's weight using the provided value. Structs PostProcessSettings Container class for storing the player's post processing settings. Enums PostProcessQualityLevel"
+  },
+  "api/D3T.PostProcessing.Effects.UnderwaterRenderer.html": {
+    "href": "api/D3T.PostProcessing.Effects.UnderwaterRenderer.html",
+    "title": "Class UnderwaterRenderer | D3T - Post Processing | 0.9.5",
+    "keywords": "Class UnderwaterRenderer Renderer for the Underwater effect. Inheritance Object UnderwaterRenderer Namespace : D3T.PostProcessing.Effects <!--h6><strong>Assembly</strong>: solution.dll</h6--> Syntax public sealed class UnderwaterRenderer : PostProcessEffectRenderer<Underwater> Methods Render(PostProcessRenderContext) Declaration public override void Render(PostProcessRenderContext context) Parameters Type Name Description PostProcessRenderContext context"
+  },
+  "api/D3T.PostProcessing.Effects.BlurEffect.Mode.html": {
+    "href": "api/D3T.PostProcessing.Effects.BlurEffect.Mode.html",
+    "title": "Enum BlurEffect.Mode | D3T - Post Processing | 0.9.5",
+    "keywords": "Enum BlurEffect.Mode Namespace : D3T.PostProcessing.Effects <!--h6><strong>Assembly</strong>: solution.dll</h6--> Syntax public enum Mode Fields Name Description SgxGaussian StandardGaussian"
+  },
+  "api/D3TEditor.AlwaysIncludePostProcessShadersInBuild.html": {
+    "href": "api/D3TEditor.AlwaysIncludePostProcessShadersInBuild.html",
+    "title": "Class AlwaysIncludePostProcessShadersInBuild | D3T - Post Processing | 0.9.5",
+    "keywords": "Class AlwaysIncludePostProcessShadersInBuild Inheritance Object AlwaysIncludePostProcessShadersInBuild Namespace : D3TEditor <!--h6><strong>Assembly</strong>: solution.dll</h6--> Syntax public static class AlwaysIncludePostProcessShadersInBuild Methods AddAlwaysIncludedShader(Shader) Declaration public static void AddAlwaysIncludedShader(Shader shader) Parameters Type Name Description Shader shader AddAlwaysIncludedShaders() Declaration public static void AddAlwaysIncludedShaders()"
+  },
+  "api/D3T.PostProcessing.Effects.Pixelate.html": {
+    "href": "api/D3T.PostProcessing.Effects.Pixelate.html",
+    "title": "Class Pixelate | D3T - Post Processing | 0.9.5",
+    "keywords": "Class Pixelate Pixelates the image. Inheritance Object Pixelate Namespace : D3T.PostProcessing.Effects <!--h6><strong>Assembly</strong>: solution.dll</h6--> Syntax [Serializable] public sealed class Pixelate : PostProcessEffectSettings Fields blend Declaration public FloatParameter blend Field Value Type Description FloatParameter isTargetResolution Declaration public BoolParameter isTargetResolution Field Value Type Description BoolParameter pixelation Declaration public IntParameter pixelation Field Value Type Description IntParameter"
+  },
+  "api/D3T.PostProcessing.Effects.LowColorDither.html": {
+    "href": "api/D3T.PostProcessing.Effects.LowColorDither.html",
+    "title": "Class LowColorDither | D3T - Post Processing | 0.9.5",
+    "keywords": "Class LowColorDither Reduces the color depth and applies a dithering effect. Inheritance Object LowColorDither Namespace : D3T.PostProcessing.Effects <!--h6><strong>Assembly</strong>: solution.dll</h6--> Syntax [Serializable] public sealed class LowColorDither : PostProcessEffectSettings Fields colorBitDepth Declaration public IntParameter colorBitDepth Field Value Type Description IntParameter ditherTex Declaration public TextureParameter ditherTex Field Value Type Description TextureParameter ditherTexScale Declaration public IntParameter ditherTexScale Field Value Type Description IntParameter gammaCorrection Declaration public BoolParameter gammaCorrection Field Value Type Description BoolParameter verticalResolutionLimit Declaration public IntParameter verticalResolutionLimit Field Value Type Description IntParameter"
+  },
+  "api/D3T.PostProcessing.Effects.Pixelate.Mode.html": {
+    "href": "api/D3T.PostProcessing.Effects.Pixelate.Mode.html",
+    "title": "Enum Pixelate.Mode | D3T - Post Processing | 0.9.5",
+    "keywords": "Enum Pixelate.Mode Namespace : D3T.PostProcessing.Effects <!--h6><strong>Assembly</strong>: solution.dll</h6--> Syntax public enum Mode Fields Name Description ReductionAmount TargetVerticalResolution"
+  },
+  "api/D3T.PostProcessing.Effects.OutlineRenderer.html": {
+    "href": "api/D3T.PostProcessing.Effects.OutlineRenderer.html",
+    "title": "Class OutlineRenderer | D3T - Post Processing | 0.9.5",
+    "keywords": "Class OutlineRenderer Renderer for the Outline effect. Inheritance Object OutlineRenderer Namespace : D3T.PostProcessing.Effects <!--h6><strong>Assembly</strong>: solution.dll</h6--> Syntax public sealed class OutlineRenderer : PostProcessEffectRenderer<Outline> Methods Render(PostProcessRenderContext) Declaration public override void Render(PostProcessRenderContext context) Parameters Type Name Description PostProcessRenderContext context"
+  },
+  "api/D3T.PostProcessing.Effects.BlurEffect.html": {
+    "href": "api/D3T.PostProcessing.Effects.BlurEffect.html",
+    "title": "Class BlurEffect | D3T - Post Processing | 0.9.5",
+    "keywords": "Class BlurEffect Inheritance Object BlurEffect Namespace : D3T.PostProcessing.Effects <!--h6><strong>Assembly</strong>: solution.dll</h6--> Syntax public sealed class BlurEffect : PostProcessEffectRenderer<Blur> Methods Render(PostProcessRenderContext) Declaration public override void Render(PostProcessRenderContext context) Parameters Type Name Description PostProcessRenderContext context"
+  },
+  "api/D3T.Graphics.WaterVolume.EffectSettings.html": {
+    "href": "api/D3T.Graphics.WaterVolume.EffectSettings.html",
+    "title": "Class WaterVolume.EffectSettings | D3T - Post Processing | 0.9.5",
+    "keywords": "Class WaterVolume.EffectSettings Inheritance Object WaterVolume.EffectSettings Namespace : D3T.Graphics <!--h6><strong>Assembly</strong>: solution.dll</h6--> Syntax [Serializable] public class EffectSettings Fields effectsVolume Declaration public PostProcessVolume effectsVolume Field Value Type Description PostProcessVolume multiplyFogColorWithWaterColor Declaration public bool multiplyFogColorWithWaterColor Field Value Type Description Boolean showEffectInSceneView Declaration public bool showEffectInSceneView Field Value Type Description Boolean underwaterFogColor Declaration public Color underwaterFogColor Field Value Type Description Color underwaterFogSaturation Declaration public float underwaterFogSaturation Field Value Type Description Single viewDistanceUnderWater Declaration public float viewDistanceUnderWater Field Value Type Description Single Methods SetUp() Declaration public void SetUp() UpdateEffects(SurfaceSettings, Single, Color) Declaration public void UpdateEffects(SurfaceSettings surface, float waterLevel, Color ambientColor) Parameters Type Name Description SurfaceSettings surface Single waterLevel Color ambientColor"
+  },
+  "api/D3T.PostProcessing.Effects.VHSEffectRenderer.html": {
+    "href": "api/D3T.PostProcessing.Effects.VHSEffectRenderer.html",
+    "title": "Class VHSEffectRenderer | D3T - Post Processing | 0.9.5",
+    "keywords": "Class VHSEffectRenderer Renderer for the VHS effect. Inheritance Object VHSEffectRenderer Namespace : D3T.PostProcessing.Effects <!--h6><strong>Assembly</strong>: solution.dll</h6--> Syntax public sealed class VHSEffectRenderer : PostProcessEffectRenderer<VHSEffect> Methods Render(PostProcessRenderContext) Declaration public override void Render(PostProcessRenderContext context) Parameters Type Name Description PostProcessRenderContext context"
+  },
+  "api/D3T.PostProcessing.Effects.PixelateRender.html": {
+    "href": "api/D3T.PostProcessing.Effects.PixelateRender.html",
+    "title": "Class PixelateRender | D3T - Post Processing | 0.9.5",
+    "keywords": "Class PixelateRender Renderer for the Pixelate effect. Inheritance Object PixelateRender Namespace : D3T.PostProcessing.Effects <!--h6><strong>Assembly</strong>: solution.dll</h6--> Syntax public sealed class PixelateRender : PostProcessEffectRenderer<Pixelate> Methods Render(PostProcessRenderContext) Declaration public override void Render(PostProcessRenderContext context) Parameters Type Name Description PostProcessRenderContext context"
+  },
+  "api/D3T.PostProcessing.Effects.BlurEffect.Pass.html": {
+    "href": "api/D3T.PostProcessing.Effects.BlurEffect.Pass.html",
+    "title": "Enum BlurEffect.Pass | D3T - Post Processing | 0.9.5",
+    "keywords": "Enum BlurEffect.Pass Namespace : D3T.PostProcessing.Effects <!--h6><strong>Assembly</strong>: solution.dll</h6--> Syntax public enum Pass Fields Name Description BlurHorizontal BlurVertical Downsample"
+  },
+  "api/D3T.PostProcessing.Effects.VHSEffect.html": {
+    "href": "api/D3T.PostProcessing.Effects.VHSEffect.html",
+    "title": "Class VHSEffect | D3T - Post Processing | 0.9.5",
+    "keywords": "Class VHSEffect Applies VHS style effects to the image. Inheritance Object VHSEffect Namespace : D3T.PostProcessing.Effects <!--h6><strong>Assembly</strong>: solution.dll</h6--> Syntax [Serializable] public sealed class VHSEffect : PostProcessEffectSettings Fields aberrationAmount Declaration public FloatParameter aberrationAmount Field Value Type Description FloatParameter blur Declaration public FloatParameter blur Field Value Type Description FloatParameter contrast1 Declaration public FloatParameter contrast1 Field Value Type Description FloatParameter contrast2 Declaration public FloatParameter contrast2 Field Value Type Description FloatParameter damageStrength Declaration public FloatParameter damageStrength Field Value Type Description FloatParameter damageTexture Declaration public TextureParameter damageTexture Field Value Type Description TextureParameter damageTextureMap Declaration public TextureParameter damageTextureMap Field Value Type Description TextureParameter damageTextureScale Declaration public FloatParameter damageTextureScale Field Value Type Description FloatParameter distortionFrequency Declaration public FloatParameter distortionFrequency Field Value Type Description FloatParameter distortionSpeed Declaration public FloatParameter distortionSpeed Field Value Type Description FloatParameter distortionStrength Declaration public FloatParameter distortionStrength Field Value Type Description FloatParameter distortionWeightFrequency Declaration public FloatParameter distortionWeightFrequency Field Value Type Description FloatParameter distortionWeightSpeed Declaration public FloatParameter distortionWeightSpeed Field Value Type Description FloatParameter vignette Declaration public TextureParameter vignette Field Value Type Description TextureParameter"
+  },
+  "api/D3T.PostProcessing.Effects.Blur.html": {
+    "href": "api/D3T.PostProcessing.Effects.Blur.html",
+    "title": "Class Blur | D3T - Post Processing | 0.9.5",
+    "keywords": "Class Blur Blurs the image. Inheritance Object Blur Namespace : D3T.PostProcessing.Effects <!--h6><strong>Assembly</strong>: solution.dll</h6--> Syntax [Serializable] public sealed class Blur : PostProcessEffectSettings Fields Blend Declaration public FloatParameter Blend Field Value Type Description FloatParameter BlurIterations Declaration public IntParameter BlurIterations Field Value Type Description IntParameter BlurSize Declaration public FloatParameter BlurSize Field Value Type Description FloatParameter Downsample Declaration public IntParameter Downsample Field Value Type Description IntParameter Mode Declaration public BlurModeParameter Mode Field Value Type Description BlurModeParameter"
+  },
+  "api/index.html": {
+    "href": "api/index.html",
+    "title": "| D3T - Post Processing | 0.9.5",
+    "keywords": "This is the documentation for the Scripting APIs of this package."
+  },
+  "license/index.html": {
+    "href": "license/index.html",
+    "title": "| D3T - Post Processing | 0.9.5",
+    "keywords": "window.location.replace('LICENSE.html')"
+  },
+  "manual/index.html": {
+    "href": "manual/index.html",
+    "title": "Information | D3T - Post Processing | 0.9.5",
+    "keywords": "Information There is currently no documentation for this package."
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "Home Page. | D3T - Post Processing | 0.9.5",
+    "keywords": "Home Page. This is the home page for this package."
+  },
+  "license/LICENSE.html": {
+    "href": "license/LICENSE.html",
+    "title": "| D3T - Post Processing | 0.9.5",
+    "keywords": "MIT License Copyright (c) 2021 D3TONAT0R Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+  },
+  "changelog/CHANGELOG.html": {
+    "href": "changelog/CHANGELOG.html",
+    "title": "Changelog | D3T - Post Processing | 0.9.5",
+    "keywords": "Changelog All notable changes to this package will be documented in this file. The format is based on Keep a Changelog and this project adheres to Semantic Versioning ."
+  },
+  "api/D3T.PostProcessing.PostProcessUserPreferences.html": {
+    "href": "api/D3T.PostProcessing.PostProcessUserPreferences.html",
+    "title": "Class PostProcessUserPreferences | D3T - Post Processing | 0.9.5",
+    "keywords": "Class PostProcessUserPreferences User preferences for controlling global settings of built-in post process effects. Inheritance Object PostProcessUserPreferences Namespace : D3T.PostProcessing <!--h6><strong>Assembly</strong>: solution.dll</h6--> Syntax public static class PostProcessUserPreferences Properties AntialiasingMode The preferred Antialiasing mode. Declaration public static PostProcessLayer.Antialiasing AntialiasingMode { get; set; } Property Value Type Description PostProcessLayer.Antialiasing EnableAmbientOcclusion Declaration public static bool EnableAmbientOcclusion { get; set; } Property Value Type Description Boolean EnableAutoExposure Declaration public static bool EnableAutoExposure { get; set; } Property Value Type Description Boolean EnableBloom Declaration public static bool EnableBloom { get; set; } Property Value Type Description Boolean EnableChromaticAberration Declaration public static bool EnableChromaticAberration { get; set; } Property Value Type Description Boolean EnableColorGrading Declaration public static bool EnableColorGrading { get; set; } Property Value Type Description Boolean EnableDepthOfField Declaration public static bool EnableDepthOfField { get; set; } Property Value Type Description Boolean EnableGrain Declaration public static bool EnableGrain { get; set; } Property Value Type Description Boolean EnableLensDistortion Declaration public static bool EnableLensDistortion { get; set; } Property Value Type Description Boolean EnableMotionBlur Declaration public static bool EnableMotionBlur { get; set; } Property Value Type Description Boolean EnableScreenSpaceReflections Declaration public static bool EnableScreenSpaceReflections { get; set; } Property Value Type Description Boolean EnableVignette Declaration public static bool EnableVignette { get; set; } Property Value Type Description Boolean ScreenBrightnessLevel Declaration public static float ScreenBrightnessLevel { get; set; } Property Value Type Description Single ScreenGammaLevel Declaration public static float ScreenGammaLevel { get; set; } Property Value Type Description Single Methods InitGlobalVolumes() Declaration public static void InitGlobalVolumes() Load() Declaration public static void Load() Save() Declaration public static void Save()"
+  },
+  "api/D3T.PostProcessing.PostProcessSettingsController.html": {
+    "href": "api/D3T.PostProcessing.PostProcessSettingsController.html",
+    "title": "Class PostProcessSettingsController | D3T - Post Processing | 0.9.5",
+    "keywords": "Class PostProcessSettingsController Applies the user's post process settings to all volumes in the scene. Inheritance Object PostProcessSettingsController Namespace : D3T.PostProcessing <!--h6><strong>Assembly</strong>: solution.dll</h6--> Syntax public class PostProcessSettingsController : MonoBehaviour Fields instance Declaration public static PostProcessSettingsController instance Field Value Type Description PostProcessSettingsController settings Declaration public PostProcessSettings settings Field Value Type Description PostProcessSettings Methods ApplySettings(PostProcessSettings) Declaration public static void ApplySettings(PostProcessSettings newSettings) Parameters Type Name Description PostProcessSettings newSettings FindObjectsOfTypeAll<T>() Declaration public static List<T> FindObjectsOfTypeAll<T>() where T : Component Returns Type Description List <T> Type Parameters Name Description T GetSettings() Declaration public static PostProcessSettings GetSettings() Returns Type Description PostProcessSettings"
+  }
+}

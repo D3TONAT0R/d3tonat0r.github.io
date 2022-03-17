@@ -1,0 +1,718 @@
+{
+  "homepages": [],
+  "source_base_path": "c:/temp/com.github.d3tonat0r.postprocessing@0.9",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Graphics.WaterVolume.EffectSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Graphics.WaterVolume.EffectSettings.html",
+          "hash": "M1wQP6qMvSl1FHeLfhm4Xw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Graphics.WaterVolume.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Graphics.WaterVolume.html",
+          "hash": "sywLGUh9yZR0o0ejzRf3BQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.Graphics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.Graphics.html",
+          "hash": "F6x1E4jHiOmIqlkdy8ZuiA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.PostProcessing.DepthOfFieldController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.PostProcessing.DepthOfFieldController.html",
+          "hash": "3cFJTWF1gBowNbBkRQXDQg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.PostProcessing.Effects.Blur.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.PostProcessing.Effects.Blur.html",
+          "hash": "EmOrtZ+bIPPnLRpoZNIsXg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.PostProcessing.Effects.BlurEffect.Mode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.PostProcessing.Effects.BlurEffect.Mode.html",
+          "hash": "mfoEEnHLaT/U+JGmILxImA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.PostProcessing.Effects.BlurEffect.Pass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.PostProcessing.Effects.BlurEffect.Pass.html",
+          "hash": "3cqvUAwkhb1rjkG19C4FgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.PostProcessing.Effects.BlurEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.PostProcessing.Effects.BlurEffect.html",
+          "hash": "kuFV6n5oJovAjfSADee+Jg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.PostProcessing.Effects.BlurModeParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.PostProcessing.Effects.BlurModeParameter.html",
+          "hash": "29jNLbqUvA4Ns8y3uDWBOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.PostProcessing.Effects.BrightnessGamma.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.PostProcessing.Effects.BrightnessGamma.html",
+          "hash": "nYSJumWjzJyWKJGt2pURAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.PostProcessing.Effects.BrightnessGammaRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.PostProcessing.Effects.BrightnessGammaRenderer.html",
+          "hash": "WMHTzykhjhTWnWOQPqizUQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.PostProcessing.Effects.LowColorDither.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.PostProcessing.Effects.LowColorDither.html",
+          "hash": "dTKq6vwxu4Df5QfwSZr27A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.PostProcessing.Effects.LowColorDitherRender.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.PostProcessing.Effects.LowColorDitherRender.html",
+          "hash": "L9VNKdaTxii0oAcenI+utA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.PostProcessing.Effects.LowerColorDepth.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.PostProcessing.Effects.LowerColorDepth.html",
+          "hash": "AhyMM3zBQcsfmZin794Rbg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.PostProcessing.Effects.LowerColorDepthRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.PostProcessing.Effects.LowerColorDepthRenderer.html",
+          "hash": "I4NCcECdWFXcVKkC8qTPqg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.PostProcessing.Effects.Outline.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.PostProcessing.Effects.Outline.html",
+          "hash": "+fNp3K9CrnHOg/DidHZmLw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.PostProcessing.Effects.OutlineRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.PostProcessing.Effects.OutlineRenderer.html",
+          "hash": "ZxQwaD+bAwNmheIKbpWEgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.PostProcessing.Effects.Overlay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.PostProcessing.Effects.Overlay.html",
+          "hash": "8Rv775dkIwqbHCmlJVE5og=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.PostProcessing.Effects.OverlayRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.PostProcessing.Effects.OverlayRenderer.html",
+          "hash": "huoLpHpmenpu+/tT4YbEaA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.PostProcessing.Effects.Pixelate.Mode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.PostProcessing.Effects.Pixelate.Mode.html",
+          "hash": "Y94MxcMEyAKZ9ByLrWgUbg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.PostProcessing.Effects.Pixelate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.PostProcessing.Effects.Pixelate.html",
+          "hash": "R2yATLzN5e8wePzb8zSepg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.PostProcessing.Effects.PixelateRender.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.PostProcessing.Effects.PixelateRender.html",
+          "hash": "vYSP6q0vF45V+fiiLJlb4Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.PostProcessing.Effects.Underwater.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.PostProcessing.Effects.Underwater.html",
+          "hash": "rzGxIceiQokCjucBBfzbDw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.PostProcessing.Effects.UnderwaterRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.PostProcessing.Effects.UnderwaterRenderer.html",
+          "hash": "dJvvvs4poHHrwMof0Mh71g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.PostProcessing.Effects.VHSEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.PostProcessing.Effects.VHSEffect.html",
+          "hash": "uaWaShZbv/tX25uiAvdowA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.PostProcessing.Effects.VHSEffectRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.PostProcessing.Effects.VHSEffectRenderer.html",
+          "hash": "k+2npsgrr/2cLXmi0Dgrlw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.PostProcessing.Effects._Template.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.PostProcessing.Effects._Template.html",
+          "hash": "bnRkzfmAIApGZ8QC5kW9BQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.PostProcessing.Effects._TemplateRender.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.PostProcessing.Effects._TemplateRender.html",
+          "hash": "CY/8bZcSgiRIrVZf72gDxA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.PostProcessing.Effects.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.PostProcessing.Effects.html",
+          "hash": "QEYqwaJvT1r4oVuHShCwPg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.PostProcessing.PostProcessQualityLevel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.PostProcessing.PostProcessQualityLevel.html",
+          "hash": "CmI76bJTUIfqax06NuUtAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.PostProcessing.PostProcessSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.PostProcessing.PostProcessSettings.html",
+          "hash": "40K8kxD0hmXCrXo3L6avLA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.PostProcessing.PostProcessSettingsController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.PostProcessing.PostProcessSettingsController.html",
+          "hash": "wodlPY24gjqNAhaUAwmYHw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.PostProcessing.PostProcessUserPreferences.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.PostProcessing.PostProcessUserPreferences.html",
+          "hash": "fY7PhW+wShz2c0YjKp5aig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.PostProcessing.PostProcessVolumeIntensityController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.PostProcessing.PostProcessVolumeIntensityController.html",
+          "hash": "BBZwlAIEbWIBeZ2OGxJLFw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.PostProcessing.PostProcessingCommands.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.PostProcessing.PostProcessingCommands.html",
+          "hash": "kx30M9kix/4g+Xg2Oyu0Lw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3T.PostProcessing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3T.PostProcessing.html",
+          "hash": "5YQQc9FKflButRarzXQQFw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.AlwaysIncludePostProcessShadersInBuild.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.AlwaysIncludePostProcessShadersInBuild.html",
+          "hash": "Sal8wD5Dl4eMQDgxngsObA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.Tools.EditorScreenshotWizard.Resolution.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.Tools.EditorScreenshotWizard.Resolution.html",
+          "hash": "uW8TMERdgcqMX/f9JnYM7g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.Tools.EditorScreenshotWizard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.Tools.EditorScreenshotWizard.html",
+          "hash": "Q4WUPYDYpo570yNUGG1CmQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.Tools.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.Tools.html",
+          "hash": "ae+/9qQQI9nzB90Z5xbedQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/D3TEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/D3TEditor.html",
+          "hash": "gWMx1kNeVzWwj7Rh62pg4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "xWgpR3PuxsgfQvI136ywZw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "sV+n1aM4l02IMdH3rZ0SSQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "changelog/CHANGELOG.md",
+      "output": {
+        ".html": {
+          "relative_path": "changelog/CHANGELOG.html",
+          "hash": "mYsSaiZqIOlNij4ZlnBqGw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "changelog/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "changelog/toc.html",
+          "hash": "/jac73mhgYo+unIDAzF2nQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "favicon.png",
+      "output": {
+        "resource": {
+          "relative_path": "favicon.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "jNdhQNFG2WSB8oB/DFJjgg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "license/LICENSE.md",
+      "output": {
+        ".html": {
+          "relative_path": "license/LICENSE.html",
+          "hash": "/ohkXH0uO33Rlj1AcGAkrA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "license/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "license/index.html",
+          "hash": "vt9VKWL9VSWfb8hM6azjSA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "license/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "license/toc.html",
+          "hash": "oERA3DhhKwjvm+IvW2+XgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "logo.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/index.html",
+          "hash": "qM2Uyw4CNsel1vEWVZXfaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "manual/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "manual/toc.html",
+          "hash": "DTe3Im8aIheKtgNaLm7PHg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "hkYukzZeSNpfRBxSktlEdQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 6,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 41,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
